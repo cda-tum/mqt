@@ -1,7 +1,7 @@
 <p align="center">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/source/_static/mqt_light.png" width="80%">
-   <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/source/_static/mqt_dark.png" width="80%">
+   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="80%">
+   <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="80%">
  </picture>
  </p>
 
