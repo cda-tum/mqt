@@ -1,5 +1,5 @@
-sphinx>=5
 furo
 myst_parser>=0.13
-sphinx_design
+sphinx>=5
 sphinx-copybutton
+sphinx_design
