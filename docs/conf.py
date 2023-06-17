@@ -32,8 +32,17 @@ add_module_names = False
 modindex_common_prefix = ["mqt."]
 
 intersphinx_mapping = {
-    "python": ("https://docs.python.org/3", None),
+    # "python": ("https://docs.python.org/3", None),
+    # "matplotlib": ("https://matplotlib.org/stable/", None),
+    # "qiskit": ("https://qiskit.org/documentation/", None),
+    "core": ("https://mqt.readthedocs.io/projects/core/en/latest/", None),
+    "ddsim": ("https://mqt.readthedocs.io/projects/ddsim/en/latest/", None),
+    "qmap": ("https://mqt.readthedocs.io/projects/qmap/en/latest/", None),
+    "qcec": ("https://mqt.readthedocs.io/projects/qcec/en/latest/", None),
+    "qecc": ("https://mqt.readthedocs.io/projects/qecc/en/latest/", None),
+    "syrec": ("https://mqt.readthedocs.io/projects/syrec/en/latest/", None),
 }
+intersphinx_disabled_reftypes = ["*"]
 
 myst_enable_extensions = [
     "colon_fence",

@@ -62,7 +62,7 @@ A Tool for Classical Quantum Circuit Simulation based on Decision Diagrams
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/ddsim) | [{fab}`python` PyPI](https://pypi.org/project/mqt.ddsim/) | [{fa}`fa-thin fa-book` Documentation](https://ddsim.readthedocs.io/en/latest/) | [More ...](https://www.cda.cit.tum.de/research/quantum_simulation/)
+[{fab}`github` GitHub](https://github.com/cda-tum/ddsim) | [{fab}`python` PyPI](https://pypi.org/project/mqt.ddsim/) | {fa}`fa-thin fa-book` {doc}` Documentation <ddsim:index>` | [More ...](https://www.cda.cit.tum.de/research/quantum_simulation/)
 :::
 ::::
 
@@ -89,7 +89,7 @@ A Tool for Quantum Circuit Mapping
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/qmap) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qmap/) | [{fa}`fa-thin fa-book` Documentation](https://mqtqmap.readthedocs.io/en/latest/) | [More ...](https://www.cda.cit.tum.de/research/ibm_qx_mapping/)
+[{fab}`github` GitHub](https://github.com/cda-tum/qmap) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qmap/) | {fa}`fa-thin fa-book` {doc}` Documentation <qmap:index>` | [More ...](https://www.cda.cit.tum.de/research/ibm_qx_mapping/)
 :::
 :::{grid-item-card} MQT IonShuttler
 :text-align: center
@@ -112,7 +112,7 @@ A Tool for the Synthesis of Reversible Circuits/Quantum Computing Oracles
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/syrec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.syrec/) | [{fa}`fa-thin fa-book` Documentation](https://syrec.readthedocs.io/en/latest/)
+[{fab}`github` GitHub](https://github.com/cda-tum/syrec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.syrec/) | {fa}`fa-thin fa-book` {doc}` Documentation <syrec:index>`
 :::
 ::::
 
@@ -128,7 +128,7 @@ A Tool for Quantum Circuit Equivalence Checking
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/qcec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qcec/) | [{fa}`fa-thin fa-book` Documentation](https://qcec.readthedocs.io/en/latest/) | [More ...](https://www.cda.cit.tum.de/research/quantum_verification/)
+[{fab}`github` GitHub](https://github.com/cda-tum/qcec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qcec/) | {fa}`fa-thin fa-book` {doc}` Documentation <qcec:index>` | [More ...](https://www.cda.cit.tum.de/research/quantum_verification/)
 :::
 ::::
 
@@ -144,7 +144,7 @@ A Tool for Quantum Error Correcting Codes
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/qecc) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qecc/) | [{fa}`fa-thin fa-book` Documentation](https://qecc.readthedocs.io/en/latest/)
+[{fab}`github` GitHub](https://github.com/cda-tum/qecc) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qecc/) | {fa}`fa-thin fa-book` {doc}` Documentation <qecc:index>`
 :::
 ::::
 
@@ -158,7 +158,7 @@ The Backbone of the Munich Quantum Toolkit.
 Quantum IR | DD Package | ZX Package
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt.core)
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt.core) | {fa}`fa-thin fa-book` {doc}` Documentation <core:index>`
 :::
 :::{grid-item-card} MQT DDVis
 :text-align: center
@@ -190,3 +190,15 @@ A Tool for Encoding Quantum Computing using Satisfiability Testing (SAT) Techniq
 ```{include} ../README.md
 :start-after: <!-- SPHINX-START -->
 ```
+
+:::{toctree}
+:hidden:
+
+MQT Core <https://mqt.readthedocs.io/projects/core/en/latest>
+MQT DDSIM <https://mqt.readthedocs.io/projects/ddsim/en/latest>
+MQT QMAP <https://mqt.readthedocs.io/projects/qmap/en/latest>
+MQT QCEC <https://mqt.readthedocs.io/projects/qcec/en/latest>
+MQT QECC <https://mqt.readthedocs.io/projects/qecc/en/latest>
+MQT SyReC <https://mqt.readthedocs.io/projects/syrec/en/latest>
+
+:::
