@@ -11,6 +11,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_design",
     "sphinx_copybutton",
+    "sphinxext.opengraph",
 ]
 
 source_suffix = [".rst", ".md"]
