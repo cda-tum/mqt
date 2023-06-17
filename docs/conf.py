@@ -25,6 +25,12 @@ exclude_patterns = [
     ".venv",
 ]
 
+pygments_style = "colorful"
+
+add_module_names = False
+
+modindex_common_prefix = ["mqt."]
+
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
 }
