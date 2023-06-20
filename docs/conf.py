@@ -56,6 +56,7 @@ copybutton_line_continuation_character = "\\"
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
+html_title = "The Munich Quantum Toolkit (MQT)"
 html_static_path = ["_static"]
 html_theme_options = {
     "light_logo": "mqt_dark.png",
