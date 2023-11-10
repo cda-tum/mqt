@@ -40,6 +40,8 @@ intersphinx_mapping = {
     "qmap": ("https://mqt.readthedocs.io/projects/qmap/en/latest/", None),
     "qcec": ("https://mqt.readthedocs.io/projects/qcec/en/latest/", None),
     "qecc": ("https://mqt.readthedocs.io/projects/qecc/en/latest/", None),
+    "bench": ("https://mqt.readthedocs.io/projects/bench/en/latest/", None),
+    "predictor": ("https://mqt.readthedocs.io/projects/predictor/en/latest/", None),
     "syrec": ("https://mqt.readthedocs.io/projects/syrec/en/latest/", None),
 }
 intersphinx_disabled_reftypes = ["*"]
@@ -49,6 +51,7 @@ myst_enable_extensions = [
     "substitution",
     "deflist",
 ]
+myst_heading_anchors = 3
 
 copybutton_prompt_text = r"(?:\(venv\) )?(?:\[.*\] )?\$ "
 copybutton_prompt_is_regexp = True

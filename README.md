@@ -33,6 +33,7 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 | `mqt-ddvis`                          |                          ![gh.mqt.ddvis.release][] |                          ![gh.mqt.ddvis.forks][] |                          ![gh.mqt.ddvis.stars][] |
 | `mqt-qusat`                          |                          ![gh.mqt.qusat.release][] |                          ![gh.mqt.qusat.forks][] |                          ![gh.mqt.qusat.stars][] |
 | `mqt-qudit-compilation`              |              ![gh.mqt.qudit-compilation.release][] |              ![gh.mqt.qudit-compilation.forks][] |              ![gh.mqt.qudit-compilation.stars][] |
+| `mqt-dasqa`                          |                          ![gh.mqt.dasqa.release][] |                          ![gh.mqt.dasqa.forks][] |                          ![gh.mqt.dasqa.stars][] |
 | `mqt-logicblocks`                    |                    ![gh.mqt.logicblocks.release][] |                    ![gh.mqt.logicblocks.forks][] |                    ![gh.mqt.logicblocks.stars][] |
 | `mqt-qudit-entanglement-compilation` | ![gh.mqt.qudit-entanglement-compilation.release][] | ![gh.mqt.qudit-entanglement-compilation.forks][] | ![gh.mqt.qudit-entanglement-compilation.stars][] |
 | `mqt-ionshuttler`                    |                    ![gh.mqt.ionshuttler.release][] |                    ![gh.mqt.ionshuttler.forks][] |                    ![gh.mqt.ionshuttler.stars][] |
@@ -82,6 +83,19 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 [gh.mqt.qudit-entanglement-compilation.release]: https://img.shields.io/github/v/release/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
 [gh.mqt.qudit-entanglement-compilation.forks]: https://img.shields.io/github/forks/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
 [gh.mqt.qudit-entanglement-compilation.stars]: https://img.shields.io/github/stars/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
+[gh.mqt.dasqa.release]: https://img.shields.io/github/v/release/cda-tum/mqt-dasqa?label=%20&style=flat-square
+[gh.mqt.dasqa.forks]: https://img.shields.io/github/forks/cda-tum/mqt-dasqa?label=%20&style=flat-square
+[gh.mqt.dasqa.stars]: https://img.shields.io/github/stars/cda-tum/mqt-dasqa?label=%20&style=flat-square
+
+#### Star History
+
+<a href="https://star-history.com/#cda-tum/mqt-qcec&cda-tum/mqt-ddsim&cda-tum/mqt-qmap&cda-tum/mqt-qecc&cda-tum/mqt-bench&cda-tum/mqt-predictor&cda-tum/mqt-core&cda-tum/mqt-problemsolver&cda-tum/mqt-syrec&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date" />
+  </picture>
+</a>
 
 ### PyPI Downloads
 
