@@ -20,17 +20,17 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 ### GitHub Information
 
 | Projekt                              |                                     latest version |                                            forks |                                            stars |
-| ------------------------------------ | -------------------------------------------------: | -----------------------------------------------: | -----------------------------------------------: |
+|--------------------------------------|---------------------------------------------------:|-------------------------------------------------:|-------------------------------------------------:|
 | `mqt-ddsim`                          |                          ![gh.mqt.ddsim.release][] |                          ![gh.mqt.ddsim.forks][] |                          ![gh.mqt.ddsim.stars][] |
 | `mqt-qmap`                           |                           ![gh.mqt.qmap.release][] |                           ![gh.mqt.qmap.forks][] |                           ![gh.mqt.qmap.stars][] |
 | `mqt-qcec`                           |                           ![gh.mqt.qcec.release][] |                           ![gh.mqt.qcec.forks][] |                           ![gh.mqt.qcec.stars][] |
 | `mqt-qecc`                           |                           ![gh.mqt.qecc.release][] |                           ![gh.mqt.qecc.forks][] |                           ![gh.mqt.qecc.stars][] |
-| `mqt-predictor`                      |                      ![gh.mqt.predictor.release][] |                      ![gh.mqt.predictor.forks][] |                      ![gh.mqt.predictor.stars][] |
 | `mqt-bench`                          |                          ![gh.mqt.bench.release][] |                          ![gh.mqt.bench.forks][] |                          ![gh.mqt.bench.stars][] |
+| `mqt-predictor`                      |                      ![gh.mqt.predictor.release][] |                      ![gh.mqt.predictor.forks][] |                      ![gh.mqt.predictor.stars][] |
 | `mqt-core`                           |                           ![gh.mqt.core.release][] |                           ![gh.mqt.core.forks][] |                           ![gh.mqt.core.stars][] |
+| `mqt-problemsolver`                  |                  ![gh.mqt.problemsolver.release][] |                  ![gh.mqt.problemsolver.forks][] |                  ![gh.mqt.problemsolver.stars][] |
 | `mqt-syrec`                          |                          ![gh.mqt.syrec.release][] |                          ![gh.mqt.syrec.forks][] |                          ![gh.mqt.syrec.stars][] |
 | `mqt-ddvis`                          |                          ![gh.mqt.ddvis.release][] |                          ![gh.mqt.ddvis.forks][] |                          ![gh.mqt.ddvis.stars][] |
-| `mqt-problemsolver`                  |                  ![gh.mqt.problemsolver.release][] |                  ![gh.mqt.problemsolver.forks][] |                  ![gh.mqt.problemsolver.stars][] |
 | `mqt-qusat`                          |                          ![gh.mqt.qusat.release][] |                          ![gh.mqt.qusat.forks][] |                          ![gh.mqt.qusat.stars][] |
 | `mqt-qudit-compilation`              |              ![gh.mqt.qudit-compilation.release][] |              ![gh.mqt.qudit-compilation.forks][] |              ![gh.mqt.qudit-compilation.stars][] |
 | `mqt-logicblocks`                    |                    ![gh.mqt.logicblocks.release][] |                    ![gh.mqt.logicblocks.forks][] |                    ![gh.mqt.logicblocks.stars][] |
@@ -86,13 +86,14 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 ### PyPI Downloads
 
 | Projekt                                             |                      latest version |                             weekly |                             monthly |                                                                          total |
-| --------------------------------------------------- | ----------------------------------: | ---------------------------------: | ----------------------------------: | -----------------------------------------------------------------------------: |
+|-----------------------------------------------------|------------------------------------:|-----------------------------------:|------------------------------------:|-------------------------------------------------------------------------------:|
 | [`mqt.qcec`][pypi.mqt.qcec.stats]                   |          ![pypi.mqt.qcec.version][] |          ![pypi.mqt.qcec.weekly][] |          ![pypi.mqt.qcec.monthly][] |                   [![pypi.mqt.qcec.total]](https://pepy.tech/project/mqt.qcec) |
 | [`mqt.qmap`][pypi.mqt.qmap.stats]                   |          ![pypi.mqt.qmap.version][] |          ![pypi.mqt.qmap.weekly][] |          ![pypi.mqt.qmap.monthly][] |                   [![pypi.mqt.qmap.total]](https://pepy.tech/project/mqt.qmap) |
 | [`mqt.ddsim`][pypi.mqt.ddsim.stats]                 |         ![pypi.mqt.ddsim.version][] |         ![pypi.mqt.ddsim.weekly][] |         ![pypi.mqt.ddsim.monthly][] |                 [![pypi.mqt.ddsim.total]](https://pepy.tech/project/mqt.ddsim) |
 | [`mqt.syrec`][pypi.mqt.syrec.stats]                 |         ![pypi.mqt.syrec.version][] |         ![pypi.mqt.syrec.weekly][] |         ![pypi.mqt.syrec.monthly][] |                 [![pypi.mqt.syrec.total]](https://pepy.tech/project/mqt.syrec) |
 | [`mqt.qusat`][pypi.mqt.qusat.stats]                 |         ![pypi.mqt.qusat.version][] |         ![pypi.mqt.qusat.weekly][] |         ![pypi.mqt.qusat.monthly][] |                 [![pypi.mqt.qusat.total]](https://pepy.tech/project/mqt.qusat) |
 | [`mqt.qecc`][pypi.mqt.qecc.stats]                   |          ![pypi.mqt.qecc.version][] |          ![pypi.mqt.qecc.weekly][] |          ![pypi.mqt.qecc.monthly][] |                   [![pypi.mqt.qecc.total]](https://pepy.tech/project/mqt.qecc) |
+| [`mqt.core`][pypi.mqt.core.stats]                  |          ![pypi.mqt.core.version][] |          ![pypi.mqt.core.weekly][] |          ![pypi.mqt.core.monthly][] |                   [![pypi.mqt.core.total]](https://pepy.tech/project/mqt.core) |
 | [`mqt.bench`][pypi.mqt.bench.stats]                 |         ![pypi.mqt.bench.version][] |         ![pypi.mqt.bench.weekly][] |         ![pypi.mqt.bench.monthly][] |                 [![pypi.mqt.bench.total]](https://pepy.tech/project/mqt.bench) |
 | [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
 | [`mqt.problemsolver`][pypi.mqt.problemsolver.stats] | ![pypi.mqt.problemsolver.version][] | ![pypi.mqt.problemsolver.weekly][] | ![pypi.mqt.problemsolver.monthly][] | [![pypi.mqt.problemsolver.total]](https://pepy.tech/project/mqt.problemsolver) |
@@ -112,6 +113,11 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 [pypi.mqt.qcec.weekly]: https://img.shields.io/pypi/dw/mqt.qcec?label=%20&style=flat-square
 [pypi.mqt.qcec.monthly]: https://img.shields.io/pypi/dm/mqt.qcec?label=%20&style=flat-square
 [pypi.mqt.qcec.total]: https://static.pepy.tech/personalized-badge/mqt-qcec?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.core.stats]: https://pypistats.org/packages/mqt-core
+[pypi.mqt.core.version]: https://img.shields.io/pypi/v/mqt.core?label=%20&style=flat-square
+[pypi.mqt.core.weekly]: https://img.shields.io/pypi/dw/mqt.core?label=%20&style=flat-square
+[pypi.mqt.core.monthly]: https://img.shields.io/pypi/dm/mqt.core?label=%20&style=flat-square
+[pypi.mqt.core.total]: https://static.pepy.tech/personalized-badge/mqt-core?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
 [pypi.mqt.qecc.stats]: https://pypistats.org/packages/mqt-qecc
 [pypi.mqt.qecc.version]: https://img.shields.io/pypi/v/mqt.qecc?label=%20&style=flat-square
 [pypi.mqt.qecc.weekly]: https://img.shields.io/pypi/dw/mqt.qecc?label=%20&style=flat-square
