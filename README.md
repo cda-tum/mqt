@@ -17,7 +17,7 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 
 <!-- SPHINX-START -->
 
-### GitHub Information
+## GitHub Information
 
 | Projekt                              |                                     latest version |                                            forks |                                            stars |
 |--------------------------------------|---------------------------------------------------:|-------------------------------------------------:|-------------------------------------------------:|
@@ -87,17 +87,7 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 [gh.mqt.dasqa.forks]: https://img.shields.io/github/forks/cda-tum/mqt-dasqa?label=%20&style=flat-square
 [gh.mqt.dasqa.stars]: https://img.shields.io/github/stars/cda-tum/mqt-dasqa?label=%20&style=flat-square
 
-#### Star History
-
-<a href="https://star-history.com/#cda-tum/mqt-qcec&cda-tum/mqt-ddsim&cda-tum/mqt-qmap&cda-tum/mqt-qecc&cda-tum/mqt-bench&cda-tum/mqt-predictor&cda-tum/mqt-core&cda-tum/mqt-problemsolver&cda-tum/mqt-syrec&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cda-tum/mqt-qcec,cda-tum/mqt-ddsim,cda-tum/mqt-qmap,cda-tum/mqt-qecc,cda-tum/mqt-bench,cda-tum/mqt-predictor,cda-tum/mqt-core,cda-tum/mqt-problemsolver,cda-tum/mqt-syrec&type=Date" />
-  </picture>
-</a>
-
-### PyPI Downloads
+## PyPI Downloads
 
 | Projekt                                             |                      latest version |                             weekly |                             monthly |                                                                          total |
 |-----------------------------------------------------|------------------------------------:|-----------------------------------:|------------------------------------:|-------------------------------------------------------------------------------:|
