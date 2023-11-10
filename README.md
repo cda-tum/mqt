@@ -152,3 +152,31 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 [pypi.mqt.qusat.weekly]: https://img.shields.io/pypi/dw/mqt.qusat?label=%20&style=flat-square
 [pypi.mqt.qusat.monthly]: https://img.shields.io/pypi/dm/mqt.qusat?label=%20&style=flat-square
 [pypi.mqt.qusat.total]: https://static.pepy.tech/personalized-badge/mqt-qusat?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+
+<!-- SPHINX-END -->
+
+---
+
+## Acknowledgements
+
+The Munich Quantum Toolkit has been supported by the European
+Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement
+No. 101001318), the Bavarian State Ministry for Science and Arts through the Distinguished Professorship Program, as well as the
+Munich Quantum Valley, which is supported by the Bavarian state government with funds from the Hightech Agenda Bayern Plus.
+
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/tum_dark.svg" width="28%">
+<img src="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/tum_light.svg" width="28%">
+</picture>
+<picture>
+<img src="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/logo-bavaria.svg" width="16%">
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/erc_dark.svg" width="24%">
+<img src="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/erc_light.svg" width="24%">
+</picture>
+<picture>
+<img src="https://raw.githubusercontent.com/cda-tum/mqt-core/main/docs/_static/logo-mqv.svg" width="28%">
+</picture>
+</p>

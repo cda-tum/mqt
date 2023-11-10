@@ -6,6 +6,10 @@ release = '1.0.0'
 language = "en"
 project_copyright = "2023, Chair for Design Automation, Technical University of Munich"
 
+master_doc = "index"
+
+templates_path = ["_templates"]
+
 extensions = [
     "myst_parser",
     "sphinx.ext.intersphinx",
@@ -71,5 +75,6 @@ html_theme_options = {
     "sidebar_hide_name": True,
 }
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
+    "custom.css",
 ]
