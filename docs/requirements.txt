@@ -1,7 +1,7 @@
 furo
 myst_parser>=0.13
 sphinx>=5
+sphinx-autobuild
 sphinx-copybutton
 sphinx_design
 sphinxext-opengraph
-sphinx-autobuild

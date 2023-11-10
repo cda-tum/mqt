@@ -10,7 +10,6 @@
   </picture>
 </a>
 
-
 ```{include} ../README.md
 :start-after: <!-- SPHINX-START -->
 ```

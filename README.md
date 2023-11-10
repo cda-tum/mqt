@@ -20,7 +20,7 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 ## GitHub Information
 
 | Projekt                              |                                     latest version |                                            forks |                                            stars |
-|--------------------------------------|---------------------------------------------------:|-------------------------------------------------:|-------------------------------------------------:|
+| ------------------------------------ | -------------------------------------------------: | -----------------------------------------------: | -----------------------------------------------: |
 | `mqt-ddsim`                          |                          ![gh.mqt.ddsim.release][] |                          ![gh.mqt.ddsim.forks][] |                          ![gh.mqt.ddsim.stars][] |
 | `mqt-qmap`                           |                           ![gh.mqt.qmap.release][] |                           ![gh.mqt.qmap.forks][] |                           ![gh.mqt.qmap.stars][] |
 | `mqt-qcec`                           |                           ![gh.mqt.qcec.release][] |                           ![gh.mqt.qcec.forks][] |                           ![gh.mqt.qcec.stars][] |
@@ -90,14 +90,14 @@ The Munich Quantum Toolkit (MQT) is a collection of design automation tools and 
 ## PyPI Downloads
 
 | Projekt                                             |                      latest version |                             weekly |                             monthly |                                                                          total |
-|-----------------------------------------------------|------------------------------------:|-----------------------------------:|------------------------------------:|-------------------------------------------------------------------------------:|
+| --------------------------------------------------- | ----------------------------------: | ---------------------------------: | ----------------------------------: | -----------------------------------------------------------------------------: |
 | [`mqt.qcec`][pypi.mqt.qcec.stats]                   |          ![pypi.mqt.qcec.version][] |          ![pypi.mqt.qcec.weekly][] |          ![pypi.mqt.qcec.monthly][] |                   [![pypi.mqt.qcec.total]](https://pepy.tech/project/mqt.qcec) |
 | [`mqt.qmap`][pypi.mqt.qmap.stats]                   |          ![pypi.mqt.qmap.version][] |          ![pypi.mqt.qmap.weekly][] |          ![pypi.mqt.qmap.monthly][] |                   [![pypi.mqt.qmap.total]](https://pepy.tech/project/mqt.qmap) |
 | [`mqt.ddsim`][pypi.mqt.ddsim.stats]                 |         ![pypi.mqt.ddsim.version][] |         ![pypi.mqt.ddsim.weekly][] |         ![pypi.mqt.ddsim.monthly][] |                 [![pypi.mqt.ddsim.total]](https://pepy.tech/project/mqt.ddsim) |
 | [`mqt.syrec`][pypi.mqt.syrec.stats]                 |         ![pypi.mqt.syrec.version][] |         ![pypi.mqt.syrec.weekly][] |         ![pypi.mqt.syrec.monthly][] |                 [![pypi.mqt.syrec.total]](https://pepy.tech/project/mqt.syrec) |
 | [`mqt.qusat`][pypi.mqt.qusat.stats]                 |         ![pypi.mqt.qusat.version][] |         ![pypi.mqt.qusat.weekly][] |         ![pypi.mqt.qusat.monthly][] |                 [![pypi.mqt.qusat.total]](https://pepy.tech/project/mqt.qusat) |
 | [`mqt.qecc`][pypi.mqt.qecc.stats]                   |          ![pypi.mqt.qecc.version][] |          ![pypi.mqt.qecc.weekly][] |          ![pypi.mqt.qecc.monthly][] |                   [![pypi.mqt.qecc.total]](https://pepy.tech/project/mqt.qecc) |
-| [`mqt.core`][pypi.mqt.core.stats]                  |          ![pypi.mqt.core.version][] |          ![pypi.mqt.core.weekly][] |          ![pypi.mqt.core.monthly][] |                   [![pypi.mqt.core.total]](https://pepy.tech/project/mqt.core) |
+| [`mqt.core`][pypi.mqt.core.stats]                   |          ![pypi.mqt.core.version][] |          ![pypi.mqt.core.weekly][] |          ![pypi.mqt.core.monthly][] |                   [![pypi.mqt.core.total]](https://pepy.tech/project/mqt.core) |
 | [`mqt.bench`][pypi.mqt.bench.stats]                 |         ![pypi.mqt.bench.version][] |         ![pypi.mqt.bench.weekly][] |         ![pypi.mqt.bench.monthly][] |                 [![pypi.mqt.bench.total]](https://pepy.tech/project/mqt.bench) |
 | [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
 | [`mqt.problemsolver`][pypi.mqt.problemsolver.stats] | ![pypi.mqt.problemsolver.version][] | ![pypi.mqt.problemsolver.weekly][] | ![pypi.mqt.problemsolver.monthly][] | [![pypi.mqt.problemsolver.total]](https://pepy.tech/project/mqt.problemsolver) |

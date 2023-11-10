@@ -12,7 +12,6 @@ The following gives an overview of all repositories, ordered along the quantum s
 
 ---
 
-
 ## Application
 
 ::::{grid} 2
