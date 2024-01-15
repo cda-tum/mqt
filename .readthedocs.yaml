@@ -9,6 +9,7 @@ build:
     python: "3.11"
   apt_packages:
     - imagemagick
+    - inkscape
 
 sphinx:
   configuration: docs/conf.py
