@@ -1,6 +1,6 @@
 """Sphinx configuration file."""
 
-project = 'mqt'
+project = 'The Munich Quantum Toolkit (MQT)'
 author = 'Chair for Design Automation, Technical University of Munich'
 version = '1.0'
 release = '1.0.0'
@@ -17,6 +17,7 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
+    "sphinxcontrib.inkscapeconverter",
 ]
 
 source_suffix = [".rst", ".md"]

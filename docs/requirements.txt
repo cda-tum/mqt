@@ -5,4 +5,5 @@ sphinx>=5
 sphinx-autobuild
 sphinx-copybutton
 sphinx_design
+sphinxcontrib-svg2pdfconverter
 sphinxext-opengraph
