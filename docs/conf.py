@@ -17,7 +17,7 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
-    "sphinxcontrib.inkscapeconverter",
+    "sphinx.ext.imgconverter",
 ]
 
 source_suffix = [".rst", ".md"]
