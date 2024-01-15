@@ -1,4 +1,5 @@
 furo
+matplotlib
 myst_parser>=0.13
 sphinx>=5
 sphinx-autobuild
