@@ -67,6 +67,33 @@ copybutton_line_continuation_character = "\\"
 
 sd_fontawesome_latex = True
 image_converter_args=["-density", "300"]
+latex_engine = "lualatex"
+latex_documents = [
+    (master_doc, "mqt.tex", "The Munich Quantum Toolkit (MQT)", author, "howto", False),
+]
+latex_logo = "_static/mqt_dark.png"
+latex_elements = {
+    "papersize": "a4paper",
+    "printindex": r"\footnotesize\raggedright\printindex",
+    "fontpkg": r"""
+    \directlua{luaotfload.add_fallback
+   ("emojifallback",
+    {
+      "NotoColorEmoji:mode=harf;"
+    }
+   )}
+
+   \setmainfont{DejaVu Serif}[
+     RawFeature={fallback=emojifallback}
+    ]
+   \setsansfont{DejaVu Sans}[
+     RawFeature={fallback=emojifallback}
+   ]
+   \setmonofont{DejaVu Sans Mono}[
+     RawFeature={fallback=emojifallback}
+   ]
+""",
+}
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
