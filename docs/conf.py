@@ -63,6 +63,8 @@ copybutton_prompt_text = r"(?:\(venv\) )?(?:\[.*\] )?\$ "
 copybutton_prompt_is_regexp = True
 copybutton_line_continuation_character = "\\"
 
+sd_fontawesome_latex = True
+
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
 html_title = "The Munich Quantum Toolkit (MQT)"
