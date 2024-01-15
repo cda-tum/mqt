@@ -63,7 +63,10 @@ copybutton_prompt_text = r"(?:\(venv\) )?(?:\[.*\] )?\$ "
 copybutton_prompt_is_regexp = True
 copybutton_line_continuation_character = "\\"
 
+# -- Options for LaTeX output ------------------------------------------------
+
 sd_fontawesome_latex = True
+image_converter_args=["-density", "300"]
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
