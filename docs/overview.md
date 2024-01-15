@@ -148,8 +148,12 @@ The Backbone of the Munich Quantum Toolkit.
 
 Quantum IR | DD Package | ZX Package
 
+```bash
+(venv) $ pip install mqt.core
+```
+
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-core) | {fa}`fa-thin fa-book` {doc}` Documentation <core:index>`
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-core) | [{fab}`python` PyPI](https://pypi.org/project/mqt.core/) | {fa}`fa-thin fa-book` {doc}` Documentation <core:index>`
 :::
 :::{grid-item-card} MQT DDVis
 :text-align: center
