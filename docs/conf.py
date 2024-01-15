@@ -1,6 +1,6 @@
 """Sphinx configuration file."""
 
-project = 'The Munich Quantum Toolkit (MQT)'
+project = 'mqt'
 author = 'Chair for Design Automation, Technical University of Munich'
 version = '1.0'
 release = '1.0.0'
