@@ -2,6 +2,7 @@
 
 project = 'mqt'
 author = 'Chair for Design Automation, Technical University of Munich'
+version = '1.0'
 release = '1.0.0'
 language = "en"
 project_copyright = "2023, Chair for Design Automation, Technical University of Munich"
