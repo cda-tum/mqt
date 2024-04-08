@@ -1,5 +1,17 @@
 """Sphinx configuration file."""
 
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+import pybtex.plugin
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle
+from pybtex.style.template import field, href
+
+if TYPE_CHECKING:
+    from pybtex.database import Entry
+    from pybtex.richtext import HRef
+
 project = 'mqt'
 author = 'Chair for Design Automation, Technical University of Munich'
 version = '1.0'
@@ -12,8 +24,9 @@ master_doc = "index"
 templates_path = ["_templates"]
 
 extensions = [
-    "myst_parser",
+    "myst_nb",
     "sphinx.ext.intersphinx",
+    "sphinxcontrib.bibtex",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
@@ -35,6 +48,9 @@ pygments_style = "colorful"
 
 add_module_names = False
 
+numfig = True
+numfig_secnum_depth = 0
+
 modindex_common_prefix = ["mqt."]
 
 intersphinx_mapping = {
@@ -53,11 +69,37 @@ intersphinx_mapping = {
 intersphinx_disabled_reftypes = ["*"]
 
 myst_enable_extensions = [
+    "amsmath",
     "colon_fence",
     "substitution",
     "deflist",
+    "dollarmath",
 ]
 myst_heading_anchors = 3
+
+# -- Options for {MyST}NB ----------------------------------------------------
+
+nb_execution_mode = "cache"
+nb_mime_priority_overrides = [
+    # builder name, mime type, priority
+    ("latex", "image/svg+xml", 15),
+]
+
+
+# -- Options for references --------------------------------------------------
+class CDAStyle(UnsrtStyle):
+    """Custom style for including PDF links."""
+
+    def format_url(self, _e: Entry) -> HRef:  # noqa: PLR6301
+        """Format URL field as a link to the PDF."""
+        url = field("url", raw=True)
+        return href()[url, "[PDF]"]
+
+
+pybtex.plugin.register_plugin("pybtex.style.formatting", "cda_style", CDAStyle)
+
+bibtex_bibfiles = ["lit_header.bib", "refs.bib"]
+bibtex_default_style = "cda_style"
 
 copybutton_prompt_text = r"(?:\(venv\) )?(?:\[.*\] )?\$ "
 copybutton_prompt_is_regexp = True
@@ -67,32 +109,29 @@ copybutton_line_continuation_character = "\\"
 
 sd_fontawesome_latex = True
 image_converter_args=["-density", "300"]
-latex_engine = "lualatex"
+latex_engine = "pdflatex"
 latex_documents = [
-    (master_doc, "mqt.tex", "The Munich Quantum Toolkit (MQT)", author, "howto", False),
+    (
+        master_doc,
+        "mqt_handbook.tex",
+        r"The MQT Handbook\\{\Large A Summary of Design Automation Tools and\\ Software for Quantum Computing}",
+        r"Chair for Design Automation\\Technical University of Munich",
+        "howto",
+        False),
 ]
 latex_logo = "_static/mqt_dark.png"
 latex_elements = {
     "papersize": "a4paper",
+    "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
-    "fontpkg": r"""
-    \directlua{luaotfload.add_fallback
-   ("emojifallback",
-    {
-      "NotoColorEmoji:mode=harf;"
-    }
-   )}
-
-   \setmainfont{DejaVu Serif}[
-     RawFeature={fallback=emojifallback}
-    ]
-   \setsansfont{DejaVu Sans}[
-     RawFeature={fallback=emojifallback}
-   ]
-   \setmonofont{DejaVu Sans Mono}[
-     RawFeature={fallback=emojifallback}
-   ]
-""",
+    "tableofcontents": "",
+    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm}",
+    "preamble": r"""
+    \newtheorem{example}{Example}
+    \clubpenalty=10000
+    \widowpenalty=10000
+    \interlinepenalty 10000
+    """
 }
 
 # -- Options for HTML output -------------------------------------------------
