@@ -41,36 +41,6 @@ Among them is a heuristic, scalable solution for arbitrary circuits based on inf
 _MQT_ offers many more methods for various compilation tasks, such as Clifford circuit synthesis {cite:p}`pehamDepthoptimalSynthesisClifford2023, schneiderSATEncodingOptimal2023`, determining optimal sub-architectures {cite:p}`pehamOptimalSubarchitecturesQuantum2023`, compiler optimization {cite:p}`quetschlichCompilerOptimizationQuantum2023`, or compilation techniques for different architectures {cite:p}`schoenbergerUsingBooleanSatisfiability2024,schoenbergerCyclebasedShuttlingTrappedIon2024,schoenbergerShuttlingScalableTrappedIon2024,schmidHybridCircuitMapping2024,schmidComputationalCapabilitiesCompiler2024`.
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
-\textbf{MQT QMAP}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-qmap}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.qmap}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qmap}
-\end{minipage}%
-\hspace{1em}%
-\begin{minipage}[t]{0.15\linewidth}
-\raisebox{2mm -\dimexpr\depth}{%
-\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qmap}
-}
-\end{minipage}
-\vspace*{3em}
-```
-
-````{only} html
-::::{grid} 1
-:::{grid-item-card} MQT QMAP
-:text-align: center
-```bash
-(venv) $ pip install mqt.qmap
-```
-+++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qmap) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qmap/) | {fa}`fa-thin fa-book` {doc}` Documentation <qmap:index>`
-:::
-::::
-````
-
-```{raw} latex
 \begin{example}
 ```
 
@@ -126,3 +96,33 @@ circ_mapped.draw(output='mpl', style='iqp')
 ```{raw} latex
 \end{example}
 ```
+
+```{raw} latex
+\vspace*{3em}
+\begin{minipage}[t]{0.54\linewidth}
+\textbf{MQT QMAP}\newline
+\emph{Code:} \url{https://github.com/cda-tum/mqt-qmap}\newline
+\emph{Python Package:} \url{https://pypi.org/p/mqt.qmap}\newline
+\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qmap}
+\end{minipage}%
+\hspace{1em}%
+\begin{minipage}[t]{0.15\linewidth}
+\raisebox{2mm -\dimexpr\depth}{%
+\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qmap}
+}
+\end{minipage}
+\vspace*{3em}
+```
+
+````{only} html
+::::{grid} 1
+:::{grid-item-card} MQT QMAP
+:text-align: center
+```bash
+(venv) $ pip install mqt.qmap
+```
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qmap) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qmap/) | {fa}`fa-thin fa-book` {doc}` Documentation <qmap:index>`
+:::
+::::
+````

@@ -17,36 +17,6 @@ Having all those benchmarks in a single repository enables an increased comparab
 To make the benchmarks as accessible as possible, MQT Bench comes as an easy-to-use website that is hosted at [www.cda.cit.tum.de/mqtbench/](https://www.cda.cit.tum.de/mqtbench/) and as a Python package available on [PyPI](https://pypi.org/project/mqt.bench/).
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
-\textbf{MQT Bench}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-bench}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.bench}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/bench}
-\end{minipage}%
-\hspace{1em}%
-\begin{minipage}[t]{0.15\linewidth}
-\raisebox{2mm -\dimexpr\depth}{%
-\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-bench}
-}
-\end{minipage}
-\vspace*{3em}
-```
-
-````{only} html
-::::{grid} 1
-:::{grid-item-card} MQT Bench
-:text-align: center
-```bash
-(venv) $ pip install mqt.bench
-```
-+++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-bench) | [{fab}`python` PyPI](https://pypi.org/project/mqt.bench/) | {fa}`fa-thin fa-book` {doc}` Documentation <bench:index>`
-:::
-::::
-````
-
-```{raw} latex
 \begin{example}
 ```
 
@@ -80,3 +50,33 @@ This circuit can then be used to evaluate the performance of a quantum software 
 ```{raw} latex
 \end{example}
 ```
+
+```{raw} latex
+\vspace*{3em}
+\begin{minipage}[t]{0.54\linewidth}
+\textbf{MQT Bench}\newline
+\emph{Code:} \url{https://github.com/cda-tum/mqt-bench}\newline
+\emph{Python Package:} \url{https://pypi.org/p/mqt.bench}\newline
+\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/bench}
+\end{minipage}%
+\hspace{1em}%
+\begin{minipage}[t]{0.15\linewidth}
+\raisebox{2mm -\dimexpr\depth}{%
+\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-bench}
+}
+\end{minipage}
+\vspace*{3em}
+```
+
+````{only} html
+::::{grid} 1
+:::{grid-item-card} MQT Bench
+:text-align: center
+```bash
+(venv) $ pip install mqt.bench
+```
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-bench) | [{fab}`python` PyPI](https://pypi.org/project/mqt.bench/) | {fa}`fa-thin fa-book` {doc}` Documentation <bench:index>`
+:::
+::::
+````

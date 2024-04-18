@@ -23,36 +23,6 @@ The _MQT_ offers the classical quantum circuit simulator _DDSIM_ that can be use
 This includes strong and weak simulation, approximation techniques, noise-aware simulation, hybrid Schrödinger-Feynman techniques, support for dynamic circuits, the computation of expectation values, and more {cite:p}`zulehnerAdvancedSimulationQuantum2019,zulehnerMatrixVectorVsMatrixMatrix2019,hillmichJustRealThing2020,hillmichAccurateNeededEfficient2020,hillmichConcurrencyDDbasedQuantum2020,hillmichApproximatingDecisionDiagrams2022,grurlConsideringDecoherenceErrors2020,grurlStochasticQuantumCircuit2021,grurlNoiseawareQuantumCircuit2023,burgholzerHybridSchrodingerFeynmanSimulation2021,burgholzerExploitingArbitraryPaths2022,burgholzerSimulationPathsQuantum2022,burgholzerEfficientConstructionFunctional2021`.
 
 ```{raw} latex
-\vspace*{3.5em}
-\begin{minipage}[t]{0.54\linewidth}
-\textbf{MQT DDSIM}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-ddsim}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.ddsim}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/ddsim}
-\end{minipage}%
-\hspace{1em}%
-\begin{minipage}[t]{0.15\linewidth}
-\raisebox{2mm -\dimexpr\depth}{%
-\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-ddsim}
-}
-\end{minipage}
-\vspace*{3.5em}
-```
-
-````{only} html
-::::{grid} 1
-:::{grid-item-card} MQT DDSIM
-:text-align: center
-```bash
-(venv) $ pip install mqt.ddsim
-```
-+++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-ddsim) | [{fab}`python` PyPI](https://pypi.org/project/mqt.ddsim/) | {fa}`fa-thin fa-book` {doc}` Documentation <ddsim:index>`
-:::
-::::
-````
-
-```{raw} latex
 \begin{example}
 ```
 
@@ -100,3 +70,33 @@ result.get_counts()
 ```{raw} latex
 \end{example}
 ```
+
+```{raw} latex
+\vspace*{3.5em}
+\begin{minipage}[t]{0.54\linewidth}
+\textbf{MQT DDSIM}\newline
+\emph{Code:} \url{https://github.com/cda-tum/mqt-ddsim}\newline
+\emph{Python Package:} \url{https://pypi.org/p/mqt.ddsim}\newline
+\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/ddsim}
+\end{minipage}%
+\hspace{1em}%
+\begin{minipage}[t]{0.15\linewidth}
+\raisebox{2mm -\dimexpr\depth}{%
+\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-ddsim}
+}
+\end{minipage}
+\vspace*{3.5em}
+```
+
+````{only} html
+::::{grid} 1
+:::{grid-item-card} MQT DDSIM
+:text-align: center
+```bash
+(venv) $ pip install mqt.ddsim
+```
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-ddsim) | [{fab}`python` PyPI](https://pypi.org/project/mqt.ddsim/) | {fa}`fa-thin fa-book` {doc}` Documentation <ddsim:index>`
+:::
+::::
+````

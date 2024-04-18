@@ -31,36 +31,6 @@ The _MQT_ offers the quantum circuit equivalence checking tool QCEC which encomp
 By this, an important step towards avoiding or substantially mitigating the emerge of a verification gap for quantum circuits is taken, i.e., a situation where the physical development of a technology substantially outperforms our ability to design suitable applications for it or to verify it.
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
-\textbf{MQT QCEC}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-qcec}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.qcec}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qcec}
-\end{minipage}%
-\hspace{1em}%
-\begin{minipage}[t]{0.15\linewidth}
-\raisebox{2mm -\dimexpr\depth}{%
-\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qcec}
-}
-\end{minipage}
-\vspace*{3em}
-```
-
-````{only} html
-::::{grid} 1
-:::{grid-item-card} MQT QCEC
-:text-align: center
-```bash
-(venv) $ pip install mqt.qcec
-```
-+++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qcec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qcec/) | {fa}`fa-thin fa-book` {doc}` Documentation <qcec:index>`
-:::
-::::
-````
-
-```{raw} latex
 \begin{example}
 ```
 
@@ -95,3 +65,33 @@ print(result.equivalence)
 ```{raw} latex
 \end{example}
 ```
+
+```{raw} latex
+\vspace*{3em}
+\begin{minipage}[t]{0.54\linewidth}
+\textbf{MQT QCEC}\newline
+\emph{Code:} \url{https://github.com/cda-tum/mqt-qcec}\newline
+\emph{Python Package:} \url{https://pypi.org/p/mqt.qcec}\newline
+\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qcec}
+\end{minipage}%
+\hspace{1em}%
+\begin{minipage}[t]{0.15\linewidth}
+\raisebox{2mm -\dimexpr\depth}{%
+\qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qcec}
+}
+\end{minipage}
+\vspace*{3em}
+```
+
+````{only} html
+::::{grid} 1
+:::{grid-item-card} MQT QCEC
+:text-align: center
+```bash
+(venv) $ pip install mqt.qcec
+```
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qcec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qcec/) | {fa}`fa-thin fa-book` {doc}` Documentation <qcec:index>`
+:::
+::::
+````
