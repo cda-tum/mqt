@@ -7,12 +7,14 @@ These methods allow designers to efficiently and automatically handle the intric
 Compared to that, most existing software solutions for quantum computing are based on manual approaches.
 This is not only susceptible to errors, inefficiency, and inconsistency but also leaves decades of research on design automation methods underutilized.
 
-The _Munich Quantum Toolkit (MQT)_, which is developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/), aims to leverage this latent potential by providing a collection of state-of-the-art design automation methods and software for quantum computing.
+The _Munich Quantum Toolkit (MQT)_, which is developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/), aims to leverage this latent potential by providing a collection of state-of-the-art design automation methods and software tools for quantum computing.
 Our overarching objective is to provide solutions for design tasks across the entire quantum software stack.
-This entails high-level support for end users in realizing their _Applications_ as well as efficient methods for the _Classical Simulation_, _Compilation_, and _Verification_ of quantum circuits.
-Reaching towards the hardware level, we also consider tools for _Quantum Error Correction_ and _Physical Design_.
-In all these tools, we try to utilize _Data Structures and Core Methods_ facilitating the efficient handling of quantum computations.
-The proposed solutions demonstrate significant improvements in efficiency, scalability, and reliability and illustrate the immense benefits of leveraging knowledge and expertise in classical circuit and system design rather than starting from scratch.
-All tools developed as part of the toolkit are made available as open-source packages on [github.com/cda-tum](https://github.com/cda-tum/).
+This entails high-level support for end users in realizing their _applications_ as well as efficient methods for the _classical simulation_, _compilation_, and _verification_ of quantum circuits.
+Reaching towards the hardware level, we also consider tools for _quantum error correction_ and _physical design_.
+In all these tools, we try to utilize _data structures and core methods_ facilitating the efficient handling of quantum computations.
+The proposed solutions demonstrate significant improvements in efficiency, scalability, and reliability.
+They illustrate the immense benefits of leveraging expertise in classical circuit and system design rather than starting from scratch.
+All tools developed as part of the MQT are made available as open-source packages on [github.com/cda-tum](https://github.com/cda-tum/).
 
-In the following, we briefly summarize the main tools (covering classical simulation, compilation, and verification of quantum circuits as well as benchmarking). We particularly focus on how to use the tools, but additionally provide references/links that offer detailed descriptions of the underlying methods as well as summaries of corresponding case studies and evaluations demonstrating the performance.
+In the following, we briefly summarize the main tools (covering classical simulation, compilation, and verification of quantum circuits as well as benchmarking).
+We particularly focus on how to use the tools, but additionally provide references and links that offer detailed descriptions of the underlying methods as well as summaries of corresponding case studies and evaluations demonstrating the benefits.

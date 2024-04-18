@@ -8,16 +8,16 @@ mystnb:
 
 # Classical Simulation of Quantum Circuits
 
-Performing a quantum computation entails evolving an initial quantum state by applying a sequence of operations (also called gates) that is commonly described as a quantum circuit and measuring the resulting system.
-Eventually, the goal should obviously be to do that on a real machine.
-However, there are several important reasons for trying to simulate the corresponding computations on a classical machine, particularly in the early stages of the design:
-As long as no suitable machines are available (e.g., in terms of scale, feasible computation depth, or accuracy), classical simulation of quantum circuits still allows one to explore and test quantum applications, even if only on a limited scale.
-However, also with further progress in the capabilities of the hardware platforms, classical simulation will remain an essential part of the quantum computing design process, since it additionally allows access to _all_ amplitudes of a resulting quantum state in contrast to a real machine that only probabilistically returns measurement results.
-Moreover, classical simulation provides means to study quantum error correction, as well as a baseline to estimate the advantage of quantum computers over classical computers.
+Performing a quantum computation (commonly described as a quantum circuit) entails evolving an initial quantum state by applying a sequence of operations (also called gates) and measuring the resulting system.
+Eventually, the goal should obviously be to do that on a real device.
+However, there are several important reasons for simulating the corresponding computations on a classical machine, particularly in the early stages of the design:
+As long as no suitable devices are available (e.g., in terms of scale, feasible computation depth, or accuracy), classical simulations of quantum circuits still allow one to explore and test quantum applications, even if only on a limited scale.
+However, also with further progress in the capabilities of the hardware platforms, classical simulation will remain an essential part of the quantum computing design process, since it additionally allows access to _all_ amplitudes of a resulting quantum state in contrast to a real device that only probabilistically returns measurement results.
+Moreover, classical simulation provides means to study quantum error correction as well as a baseline to estimate the advantage of quantum computers over classical computers.
 
 The classical simulation of quantum circuits is commonly conducted by performing consecutive matrix-vector multiplication, which many simulators realize by storing a dense representation of the complete state vector in memory and evolving it correspondingly (see, e.g., {cite:p}`hanerPetabyteSimulation45Qubit2017,doiQuantumComputingSimulator2019,jonesQuESTHighPerformance2018,guerreschiIntelQuantumSimulator2020, wuFullstateQuantumCircuit2019`).
 This approach quickly becomes intractable due to the exponential growth of the quantum state with respect to the number of qubits---quickly rendering such simulations infeasible even on supercomputer clusters.
-Simulation methodologies based on decision diagrams {cite:p}`viamontesImprovingGatelevelSimulation2003,willeDecisionDiagramsQuantum2023,zulehnerAdvancedSimulationQuantum2019` are a promising complementary approach that frequently allows to reduce the required memory by exploiting redundancies in the simulated quantum state.
+Simulation methodologies based on decision diagrams {cite:p}`viamontesImprovingGatelevelSimulation2003,willeDecisionDiagramsQuantum2023,zulehnerAdvancedSimulationQuantum2019` are a promising complementary approach that frequently allows reducing the required memory by exploiting redundancies in the simulated quantum state.
 
 The _MQT_ offers the classical quantum circuit simulator _DDSIM_ that can be used to perform various quantum circuit simulation tasks based on using decision diagrams as a data structure.
 This includes strong and weak simulation, approximation techniques, noise-aware simulation, hybrid Schrödinger-Feynman techniques, support for dynamic circuits, the computation of expectation values, and more {cite:p}`zulehnerAdvancedSimulationQuantum2019,zulehnerMatrixVectorVsMatrixMatrix2019,hillmichJustRealThing2020,hillmichAccurateNeededEfficient2020,hillmichConcurrencyDDbasedQuantum2020,hillmichApproximatingDecisionDiagrams2022,grurlConsideringDecoherenceErrors2020,grurlStochasticQuantumCircuit2021,grurlNoiseawareQuantumCircuit2023,burgholzerHybridSchrodingerFeynmanSimulation2021,burgholzerExploitingArbitraryPaths2022,burgholzerSimulationPathsQuantum2022,burgholzerEfficientConstructionFunctional2021`.
@@ -28,7 +28,7 @@ This includes strong and weak simulation, approximation techniques, noise-aware 
 \textbf{MQT DDSIM}\newline
 \emph{Code:} \url{https://github.com/cda-tum/mqt-ddsim}\newline
 \emph{Python Package:} \url{https://pypi.org/p/mqt.ddsim}\newline
-\emph{Docs:} \url{https://mqt.readthedocs.io/projects/ddsim}
+\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/ddsim}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}
@@ -61,7 +61,7 @@ This includes strong and weak simulation, approximation techniques, noise-aware 
 %config InlineBackend.figure_formats = ['svg']
 ```
 
-Consider the following circuit that generates a three-qubit GHZ state:
+Consider the following listing that builds the quantum circuit for generating a three-qubit GHZ state:
 
 ```{code-cell} ipython3
 :tags: [remove-output]
@@ -86,7 +86,7 @@ mystnb:
 circ.draw(output="mpl", style="iqp")
 ```
 
-Then the following listing demonstrates how to simulate this circuit using DDSIM as a backend for IBM Qiskit:
+The following listing demonstrates how to simulate this circuit using DDSIM as a backend for IBM Qiskit:
 
 ```{code-cell} ipython3
 from mqt.ddsim import DDSIMProvider
