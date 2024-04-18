@@ -38,6 +38,8 @@ source_suffix = [".rst", ".md"]
 exclude_patterns = [
     "_build",
     "**.ipynb_checkpoints",
+    "**.jupyter_cache",
+    "**jupyter_execute",
     "Thumbs.db",
     ".DS_Store",
     ".env",
@@ -54,9 +56,8 @@ numfig_secnum_depth = 0
 modindex_common_prefix = ["mqt."]
 
 intersphinx_mapping = {
-    # "python": ("https://docs.python.org/3", None),
-    # "matplotlib": ("https://matplotlib.org/stable/", None),
-    # "qiskit": ("https://qiskit.org/documentation/", None),
+    "python": ("https://docs.python.org/3", None),
+    "qiskit": ("https://docs.quantum.ibm.com/api/qiskit/", None),
     "core": ("https://mqt.readthedocs.io/projects/core/en/latest/", None),
     "ddsim": ("https://mqt.readthedocs.io/projects/ddsim/en/latest/", None),
     "qmap": ("https://mqt.readthedocs.io/projects/qmap/en/latest/", None),
@@ -101,7 +102,7 @@ pybtex.plugin.register_plugin("pybtex.style.formatting", "cda_style", CDAStyle)
 bibtex_bibfiles = ["lit_header.bib", "refs.bib"]
 bibtex_default_style = "cda_style"
 
-copybutton_prompt_text = r"(?:\(venv\) )?(?:\[.*\] )?\$ "
+copybutton_prompt_text = r"(?:\(\.?venv\) )?(?:\[.*\] )?\$ "
 copybutton_prompt_is_regexp = True
 copybutton_line_continuation_character = "\\"
 
@@ -125,13 +126,21 @@ latex_elements = {
     "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
     "tableofcontents": "",
-    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm}",
+    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox}",
     "preamble": r"""
-    \newtheorem{example}{Example}
-    \clubpenalty=10000
-    \widowpenalty=10000
-    \interlinepenalty 10000
-    """
+\patchcmd{\thebibliography}{\addcontentsline{toc}{section}{\refname}}{}{}{}
+\newtheorem{example}{Example}
+\clubpenalty=10000
+\widowpenalty=10000
+\interlinepenalty 10000
+\def\subparagraph{} % because IEEE classes don't define this, but titlesec assumes it's present
+    """,
+    "extraclassoptions": r"journal, onecolumn",
+    "fvset": r"\fvset{fontsize=\small}",
+}
+latex_domain_indices = False
+latex_docclass = {
+    "howto": "IEEEtran",
 }
 
 # -- Options for HTML output -------------------------------------------------
