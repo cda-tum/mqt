@@ -11,6 +11,13 @@ nox.options.default_venv_backend = "uv|virtualenv"
 
 
 @nox.session(reuse_venv=True)
+def lint(session: nox.Session) -> None:
+    """Run the linter."""
+    session.install("pre-commit")
+    session.run("pre-commit", "run", "--all-files", *session.posargs)
+
+
+@nox.session(reuse_venv=True)
 def docs(session: nox.Session) -> None:
     """
     Build the docs. Use "--non-interactive" to avoid serving. Pass "-b linkcheck" to check links.
