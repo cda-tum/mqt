@@ -12,7 +12,7 @@ This entails high-level support for end users in realizing their _applications_ 
 Reaching towards the hardware level, we also consider tools for _quantum error correction_ {cite:p}`berentDecodingQuantumColor2023,berentSoftwareToolsDecoding2023,strikisQuantumLowdensityParitycheck2023` and _physical design_ {cite:p}`kunasaikaranFrameworkDesignRealization2024`.
 In all these tools, we try to utilize _data structures_ (such as decision diagrams) and _core methods_ (such as reasoning engines) to facilitate the efficient handling of quantum computations.
 The proposed solutions demonstrate how utilizing design automation expertise can lead to improved efficiency, scalability, and reliability.
-They illustrate the immense benefits of leveraging expertise in classical circuit and system design rather than starting from scratch.
+In particular, they illustrate the immense benefits of leveraging expertise in classical circuit and system design rather than starting from scratch.
 All tools developed as part of the MQT are made available as open-source packages on [github.com/cda-tum](https://github.com/cda-tum/).
 
 In the following, we briefly summarize the core methods and tools (covering classical simulation, compilation, and verification of quantum circuits as well as benchmarking).
