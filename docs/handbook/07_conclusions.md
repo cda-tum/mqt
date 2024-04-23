@@ -10,7 +10,7 @@ Overall, the _MQT_ demonstrates the immense benefits of leveraging existing know
 By applying design automation methods to various tasks, the MQT significantly advances the state of the art in quantum computing and improves the efficiency, scalability, and reliability of quantum software solutions.
 In the absence of appropriate tools and software, the potential of quantum computers may remain untapped despite their immense computational capabilities.
 The _MQT_ highlights the importance of design automation methods in shaping the future of quantum computing.
-As the quantum computing landscape changes, the _MQT_ aims to support researchers, developers, and practitioners in the near-, middle-, and far-term future by providing a comprehensive suite of tools and methods.
+As the quantum computing landscape advances towards fully fault-tolerant quantum computing (FTQC), the _MQT_ aims to support researchers, developers, and practitioners in the near-, middle-, and far-term future by providing a comprehensive suite of tools and methods.
 
 ```{rubric} Acknowledgments
 
