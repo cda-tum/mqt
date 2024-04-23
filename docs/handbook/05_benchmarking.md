@@ -12,7 +12,7 @@ Tools like the ones proposed above are key in order to support end users in the 
 And, thankfully, a huge variety of tools has been proposed in the past—with many more to come.
 However, whenever such a quantum software tool is proposed, it is important to empirically evaluate its performance and to compare it to the state of the art.
 For that purpose, proper benchmarks are needed.
-To provide those, MQT Bench is proposed, which offers over $70,000$ benchmarks on various abstraction levels (depending on what level the to-be-evaluated software tool operates on).
+To provide those, MQT Bench is proposed {cite:p}`quetschlichMQTBenchBenchmarking2023`, which offers over $70,000$ benchmarks on various abstraction levels (depending on what level the to-be-evaluated software tool operates on).
 Having all those benchmarks in a single repository enables an increased comparability, reproducibility, and transparency.
 To make the benchmarks as accessible as possible, MQT Bench comes as an easy-to-use website that is hosted at [www.cda.cit.tum.de/mqtbench/](https://www.cda.cit.tum.de/mqtbench/) and as a Python package available on [PyPI](https://pypi.org/project/mqt.bench/).
 
