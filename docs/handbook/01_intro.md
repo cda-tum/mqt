@@ -4,7 +4,7 @@ Quantum computing has the potential to revolutionize many fields in the 21st cen
 However, the best hardware is only as good as the software available to realize corresponding applications on it---a lesson learned from the past decades of research on designing and developing classical circuits and systems.
 Thanks to the software tools and methods for _Electronic Design Automation (EDA)_, we can create classical systems with a staggering amount of transistors and complex functionalities that we often take for granted.
 These methods allow designers to efficiently and automatically handle the intricacies of such systems and optimize their performance.
-Compared to that, most existing software solutions for quantum computing leave decades of research on design automation methods and software engineering practices underutilized {cite:p}`destefanoSoftwareEngineeringQuantum2022`---making the resulting tools susceptible to errors, inefficiency, and inconsistency.
+Compared to that, most existing software solutions for quantum computing leave the decades of research on design automation methods underutilized---making the resulting tools susceptible to errors, inefficiency, and inconsistency.
 
 The _Munich Quantum Toolkit (MQT)_, which is developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/), aims to leverage this latent potential by providing a collection of state-of-the-art design automation methods and software tools for quantum computing.
 Our overarching objective is to provide solutions for design tasks across the entire quantum software stack.
