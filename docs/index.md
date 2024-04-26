@@ -22,7 +22,6 @@ Our overarching objective is to provide solutions for design tasks across the en
 This entails high-level support for end users in realizing their _applications_, efficient methods for the _classical simulation_, _compilation_, and _verification_ of quantum circuits, tools for _quantum error correction_, support for _physical design_, and more.
 These methods are supported by corresponding _data structures_ (such as decision diagrams) and _core methods_ (such as SAT encodings/solvers).
 All of the developed tools are available as open-source implementations and are hosted on [github.com/cda-tum](https://github.com/cda-tum).
-The following sections provide a brief overview of some of the core methods and tools for various levels in the quantum software stack.
 
 ````{only} latex
 ```{note}
