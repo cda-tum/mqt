@@ -27,10 +27,10 @@ extensions = [
     "myst_nb",
     "sphinx.ext.intersphinx",
     "sphinxcontrib.bibtex",
+    "sphinxcontrib.inkscapeconverter",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
-    "sphinx.ext.imgconverter",
 ]
 
 source_suffix = [".rst", ".md"]
