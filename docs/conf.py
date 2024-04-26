@@ -116,7 +116,9 @@ latex_documents = [
         master_doc,
         "mqt_handbook.tex",
         r"The MQT Handbook\\{\Large A Summary of Design Automation Tools and\\ Software for Quantum Computing}",
-        r"Chair for Design Automation\\Technical University of Munich",
+        r"""\IEEEauthorblockN{Chair for Design Automation}\\
+        \IEEEauthorblockA{Technical University of Munich, Germany}\\
+        \IEEEauthorblockA{\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}}\\""",
         "howto",
         False),
 ]
@@ -137,6 +139,7 @@ latex_elements = {
     """,
     "extraclassoptions": r"journal, onecolumn",
     "fvset": r"\fvset{fontsize=\small}",
+    "figure_align": "tb",
 }
 latex_domain_indices = False
 latex_docclass = {

@@ -45,7 +45,7 @@ mystnb:
 circ.draw(output='mpl', style='iqp')
 ```
 
-This circuit can then be used to evaluate the performance of a quantum software tool, e.g., to test how well it can simulate the circuit or how well it can compile it to a given architecture.
+This gives the circuit shown in {numref}`fig-ghz-circuit-bench`, which can then be used to evaluate the performance of a quantum software tool, e.g., to test how well the tool can simulate the circuit or how well it can compile it to a given architecture.
 
 ```{raw} latex
 \end{example}

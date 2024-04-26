@@ -31,7 +31,7 @@ This includes strong and weak simulation {cite:p}`zulehnerAdvancedSimulationQuan
 %config InlineBackend.figure_formats = ['svg']
 ```
 
-Consider the following listing that builds the quantum circuit for generating a three-qubit GHZ state:
+Consider the following listing that describes the quantum circuit for generating a three-qubit GHZ state (also shown in {numref}`fig-ghz-circuit`):
 
 ```{code-cell} ipython3
 :tags: [remove-output]
