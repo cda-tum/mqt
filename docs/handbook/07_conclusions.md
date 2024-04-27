@@ -15,6 +15,6 @@ We thank everyone that contributed to the development of the _Munich Quantum Too
 Special thanks go to Alwin Zulehner, Stefan Hillmich, Thomas Grurl, Hartwig Bauer, Sarah Schneider, Smaran Adarsh, and Alexander Ploier for their specific contributions in the past.
 
 ```{only} latex
-The Munich Quantum Toolkit has been supported by the European Union's Horizon 2020 research and innovation programme under the ERC Consolidator Grant (agreement No.~101001318), the NeQST Grant (agreement No.~101080086) and MILLENION (agreement No.~101114305).
+The Munich Quantum Toolkit has been supported by the European Union's Horizon 2020 research and innovation programme under the ERC Consolidator Grant (agreement No. 101001318), the NeQST Grant (agreement No. 101080086) and MILLENION (agreement No. 101114305).
 It is part of the Munich Quantum Valley, which is supported by the Bavarian state government with funds from the Hightech Agenda Bayern Plus, and has been supported by the BMWK on the basis of a decision by the German Bundestag through project QuaST, as well as by the BMK, BMDW, the State of Upper Austria in the frame of the COMET program, and the QuantumReady project within Quantum Austria (managed by the FFG).
 ```
