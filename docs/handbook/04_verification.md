@@ -25,7 +25,7 @@ If two circuits are equivalent, this allows for the conclusion that $G\cdot G^{\
 Since the identity has the most compact representation for most data structures representing quantum functionality (e.g., linear with respect to the number of qubits in case of decision diagrams), the equivalence check can be simplified considerably.
 Even complex circuits can be verified efficiently, if one manages to apply the gates of both circuits in a sequence that keeps the intermediate representation "close to the identity".
 Within the MQT, several methods and strategies were proposed that utilize this characteristic of quantum computations.
-Eventually, this led to solutions that can verify the results of whole quantum compilation flows (such as IBM's Qiskit) in negligible runtime---something we never even managed for classical circuits and systems.
+Eventually, this led to solutions that can verify the results of whole quantum compilation flows (such as IBM's Qiskit) in negligible runtime---something we never managed for classical circuits and systems.
 
 The _MQT_ offers the quantum circuit equivalence checking tool QCEC which encompasses a comprehensive suite of efficient methods and automated tools for the verification of quantum circuits based on the ideas outlined in {cite:p}`burgholzerAdvancedEquivalenceChecking2021,burgholzerImprovedDDbasedEquivalence2020, burgholzerPowerSimulationEquivalence2020,burgholzerRandomStimuliGeneration2021, burgholzerVerifyingResultsIBM2020,pehamEquivalenceCheckingParameterized2023,pehamEquivalenceCheckingQuantum2022,pehamEquivalenceCheckingParadigms2022,willeVerificationQuantumCircuits2022`.
 By this, an important step towards avoiding or substantially mitigating the emerge of a verification gap for quantum circuits is taken, i.e., a situation where the physical development of a technology substantially outperforms our ability to design suitable applications for it or to verify it.
@@ -34,7 +34,7 @@ By this, an important step towards avoiding or substantially mitigating the emer
 \begin{example}
 ```
 
-Verifying that the quantum circuit from {numref}`fig-ghz-circuit-mapped` has been correctly compiled to the architecture from {numref}`fig-device`, i.e., whether it still implements the functionality of the circuit shown in {numref}`fig-ghz-circuit`, merely requires the following lines of Python:
+Verifying that the quantum circuit from {numref}`fig-ghz-circuit-mapped` has been correctly compiled to the architecture from {numref}`fig-device`, i.e., checking whether it still implements the functionality of the circuit shown in {numref}`fig-ghz-circuit`, merely requires the following lines of Python:
 
 ```{code-cell} ipython3
 :tags: [remove-cell]

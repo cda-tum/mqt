@@ -56,7 +56,7 @@ mystnb:
 circ.draw(output="mpl", style="iqp")
 ```
 
-The following listing demonstrates how to simulate this circuit using DDSIM as a backend for IBM Qiskit:
+This circuit can be classically simulated using DDSIM as a backend for IBM Qiskit:
 
 ```{code-cell} ipython3
 from mqt.ddsim import DDSIMProvider

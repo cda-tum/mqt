@@ -53,7 +53,7 @@ tags: [remove-input]
 mystnb:
   figure:
     align: center
-    caption: "Generic five-qubit IBM device."
+    caption: "Coupling map of a generic five-qubit IBM device."
     name: fig-device
 ---
 %config InlineBackend.figure_formats = ['svg']
