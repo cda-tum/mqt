@@ -1,13 +1,16 @@
 <p align="center">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="80%">
-   <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="80%">
- </picture>
- </p>
+  <a href="https://mqt.readthedocs.io">
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="80%">
+     <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="80%">
+   </picture>
+  </a>
+</p>
 
 # The Munich Quantum Toolkit (MQT)
 
-The Munich Quantum Toolkit (MQT) is a collection of design automation tools and software for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/).
+The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of design automation tools and software for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at
+the [Technical University of Munich](https://www.tum.de/).
 
 <p align="center">
   <a href="https://mqt.readthedocs.io/en/latest/">
