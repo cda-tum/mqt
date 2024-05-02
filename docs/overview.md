@@ -39,6 +39,18 @@ A Tool for Solving Problems Using Quantum Computing
 [{fab}`github` GitHub](https://github.com/cda-tum/mqt-problemsolver) | [{fab}`python` PyPI](https://pypi.org/project/mqt.problemsolver/)
 :::
 
+:::{grid-item-card} MQT QUBOMaker
+:text-align: center
+A framework for the automatic generation of QUBO formulations for optimization problems.
+
+```bash
+(venv) $ pip install mqt.qubomaker
+```
+
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-problemsolver) | [{fab}`python` PyPI](https://pypi.org/project/mqt.problemsolver/) | {fa}`fa-thin fa-book` {doc}` Documentation <qubomaker:index>` | [{fa}`fa-thin fa-desktop` Application](https://cda-tum.github.io/mqt-qubomaker/)
+:::
+
 ::::
 
 ## Simulation
@@ -90,9 +102,9 @@ A Tool for Generating Shuttling Schedules for QCCD Architectures
 :::
 :::{grid-item-card} MQT Qudits
 :text-align: center
-A Tool for Adaptive Compilation of Multi-Level Quantum Operations and Entangling Gates for High-Dimensional Quantum Systems
+A Framework For Mixed-Dimensional Qudit Quantum Computing
 +++
-[{fab}`github` GitHub](https://github/com/cda-tum/qudit-compilation) | [{fab}`github` GitHub](https://github/com/cda-tum/qudit-entanglement-compilation)
+[{fab}`github` GitHub](https://github/com/cda-tum/mqt-qudits) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qudits/) | {fa}`fa-thin fa-book` {doc}` Documentation <qudits:index>`
 :::
 :::{grid-item-card} MQT SyReC
 :text-align: center
@@ -160,12 +172,6 @@ Quantum IR | DD Package | ZX Package
 A Web-Application Visualizing Decision Diagrams for Quantum Computing
 +++
 [{fab}`github` GitHub](https://github.com/cda-tum/mqt-ddvis) | [{fa}`fa-thin fa-desktop` Application](https://www.cda.cit.tum.de/app/ddvis/) | [More ...](https://www.cda.cit.tum.de/research/quantum_dd/)
-:::
-:::{grid-item-card} MQT LogicBlocks
-:text-align: center
-An Interface Library for SAT/SMT Abstractions
-+++
-[{fab}`github` GitHub](https://github.com/cda-tum/logicblocks)
 :::
 :::{grid-item-card} MQT QuSAT
 :text-align: center

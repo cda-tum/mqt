@@ -65,6 +65,8 @@ intersphinx_mapping = {
     "qecc": ("https://mqt.readthedocs.io/projects/qecc/en/latest/", None),
     "bench": ("https://mqt.readthedocs.io/projects/bench/en/latest/", None),
     "predictor": ("https://mqt.readthedocs.io/projects/predictor/en/latest/", None),
+    "qudits": ("https://mqt.readthedocs.io/projects/qudits/en/latest/", None),
+    "qubomaker": ("https://mqt.readthedocs.io/projects/qubomaker/en/latest/", None),
     "syrec": ("https://mqt.readthedocs.io/projects/syrec/en/latest/", None),
 }
 intersphinx_disabled_reftypes = ["*"]

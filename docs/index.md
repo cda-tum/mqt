@@ -81,5 +81,7 @@ MQT QCEC <https://mqt.readthedocs.io/projects/qcec/en/latest>
 MQT QECC <https://mqt.readthedocs.io/projects/qecc/en/latest>
 MQT Bench <https://mqt.readthedocs.io/projects/bench/en/latest>
 MQT Predictor <https://mqt.readthedocs.io/projects/predictor/en/latest>
+MQT Qudits <https://mqt.readthedocs.io/projects/qudits/en/latest>
+MQT QUBOMaker <https://mqt.readthedocs.io/projects/qubomaker/en/latest>
 MQT SyReC <https://mqt.readthedocs.io/projects/syrec/en/latest>
 ```
