@@ -67,12 +67,11 @@ print(result.equivalence)
 ```
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
+\begin{minipage}[t]{0.76\linewidth}
 \textbf{MQT QCEC}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-qcec}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.qcec}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qcec}
+\emph{Code:} \href{https://github.com/cda-tum/mqt-qcec}{cda-tum/mqt-qcec}\newline
+\emph{Python Package:} \href{https://pypi.org/p/mqt.qcec}{pypi.org/p/mqt.qcec}\newline
+\emph{Documentation:} \href{https://mqt.readthedocs.io/projects/qcec}{mqt.rtfd.io/projects/qcec}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}
@@ -80,7 +79,6 @@ print(result.equivalence)
 \qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qcec}
 }
 \end{minipage}
-\vspace*{3em}
 ```
 
 ````{only} html

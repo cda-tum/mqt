@@ -37,6 +37,8 @@ circ = get_benchmark("ghz", circuit_size=8, level="alg")
 ---
 tags: [remove-input]
 mystnb:
+  image:
+    width: 50%
   figure:
     align: center
     caption: "Larger version of the circuit from {numref}`fig-ghz-circuit` obtained via MQT Bench."
@@ -52,12 +54,11 @@ This gives the circuit shown in {numref}`fig-ghz-circuit-bench`, which can then 
 ```
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
+\begin{minipage}[t]{0.76\linewidth}
 \textbf{MQT Bench}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-bench}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.bench}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/bench}
+\emph{Code:} \href{https://github.com/cda-tum/mqt-bench}{cda-tum/mqt-bench}\newline
+\emph{Python Package:} \href{https://pypi.org/p/mqt.bench}{pypi.org/p/mqt.bench}\newline
+\emph{Documentation:} \href{https://mqt.readthedocs.io/projects/bench}{mqt.rtfd.io/projects/bench}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}
@@ -65,7 +66,6 @@ This gives the circuit shown in {numref}`fig-ghz-circuit-bench`, which can then 
 \qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-bench}
 }
 \end{minipage}
-\vspace*{3em}
 ```
 
 ````{only} html

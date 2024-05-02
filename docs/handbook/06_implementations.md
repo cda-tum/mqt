@@ -9,11 +9,11 @@ Hence, push-button solutions are provided through Python bindings, pre-built Pyt
 All tools are actively maintained and well documented.
 
 ```{raw} latex
-\begin{minipage}[t]{0.54\linewidth}
+\begin{minipage}[t]{0.76\linewidth}
 \textbf{MQT Core}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-core}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.core}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/core}
+\emph{Code:} \href{https://github.com/cda-tum/mqt-core}{cda-tum/mqt-core}\newline
+\emph{Python Package:} \href{https://pypi.org/p/mqt.core}{pypi.org/p/mqt.core}\newline
+\emph{Documentation:} \href{https://mqt.readthedocs.io/projects/core}{mqt.rtfd.io/projects/core}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}

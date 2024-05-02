@@ -51,6 +51,8 @@ Assume we want to perform the computation from {numref}`fig-ghz-circuit` on a fi
 ---
 tags: [remove-input]
 mystnb:
+  image:
+    width: 30%
   figure:
     align: center
     caption: "Coupling map of a generic five-qubit IBM device."
@@ -86,6 +88,8 @@ circ_mapped, results = compile(circ, backend)
 ---
 tags: [remove-input]
 mystnb:
+  image:
+    width: 50%
   figure:
     align: center
     caption: "Quantum circuit from {numref}`fig-ghz-circuit` mapped to the five-qubit device shown in {numref}`fig-device`."
@@ -99,12 +103,11 @@ circ_mapped.draw(output='mpl', style='iqp')
 ```
 
 ```{raw} latex
-\vspace*{3em}
-\begin{minipage}[t]{0.54\linewidth}
+\begin{minipage}[t]{0.76\linewidth}
 \textbf{MQT QMAP}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-qmap}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.qmap}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/qmap}
+\emph{Code:} \href{https://github.com/cda-tum/mqt-qmap}{cda-tum/mqt-qmap}\newline
+\emph{Python Package:} \href{https://pypi.org/p/mqt.qmap}{pypi.org/p/mqt.qmap}\newline
+\emph{Documentation:} \href{https://mqt.readthedocs.io/projects/qmap}{mqt.rtfd.io/projects/qmap}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}
@@ -112,7 +115,6 @@ circ_mapped.draw(output='mpl', style='iqp')
 \qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-qmap}
 }
 \end{minipage}
-\vspace*{3em}
 ```
 
 ````{only} html

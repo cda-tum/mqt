@@ -119,30 +119,25 @@ latex_documents = [
         master_doc,
         "mqt_handbook.tex",
         r"The MQT Handbook\\{\Large A Summary of Design Automation Tools and\\ Software for Quantum Computing}",
-        r"""\IEEEauthorblockN{Chair for Design Automation}\\
-        \IEEEauthorblockA{Technical University of Munich, Germany}\\
-        \IEEEauthorblockA{\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}}\\""",
+        r"""Chair for Design Automation\\ Technical University of Munich, Germany\\\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}""",
         "howto",
         False),
 ]
 latex_logo = "_static/mqt_dark.png"
 latex_elements = {
-    "papersize": "a4paper",
+    "papersize": "letterpaper",
     "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
     "tableofcontents": "",
-    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox}",
+    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox,flushend}",
     "preamble": r"""
 \patchcmd{\thebibliography}{\addcontentsline{toc}{section}{\refname}}{}{}{}
 \newtheorem{example}{Example}
-\clubpenalty=10000
-\widowpenalty=10000
-\interlinepenalty 10000
 \def\subparagraph{} % because IEEE classes don't define this, but titlesec assumes it's present
     """,
-    "extraclassoptions": r"journal, onecolumn",
+    "extraclassoptions": r"conference,onecolumn",
     "fvset": r"\fvset{fontsize=\small}",
-    "figure_align": "tb",
+    "figure_align": "htb",
 }
 latex_domain_indices = False
 latex_docclass = {

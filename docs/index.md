@@ -17,7 +17,7 @@ Quantum computers are becoming a reality and numerous quantum computing applicat
 However, designing and realizing potential applications for these devices in a scalable fashion requires automated, efficient, and user-friendly software tools that cater to the needs of end users, engineers, and physicists at every level of the entire quantum software stack.
 Many of the problems to be tackled in that regard are similar to design problems from the classical realm for which sophisticated design automation tools have been developed in the previous decades.
 
-The _Munich Quantum Toolkit (MQT)_ is a collection of software tools for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/) which explicitly utilizes this design automation expertise.
+The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of software tools for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/) which explicitly utilizes this design automation expertise.
 Our overarching objective is to provide solutions for design tasks across the entire quantum software stack.
 This entails high-level support for end users in realizing their _applications_, efficient methods for the _classical simulation_, _compilation_, and _verification_ of quantum circuits, tools for _quantum error correction_, support for _physical design_, and more.
 These methods are supported by corresponding _data structures_ (such as decision diagrams) and _core methods_ (such as SAT encodings/solvers).

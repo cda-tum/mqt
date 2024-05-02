@@ -48,6 +48,8 @@ circ.measure_all()
 ---
 tags: [remove-input]
 mystnb:
+  image:
+    width: 50%
   figure:
     align: center
     caption: "Quantum circuit for generating a three-qubit GHZ state."
@@ -72,12 +74,11 @@ result.get_counts()
 ```
 
 ```{raw} latex
-\vspace*{3.5em}
-\begin{minipage}[t]{0.54\linewidth}
+\begin{minipage}[t]{0.76\linewidth}
 \textbf{MQT DDSIM}\newline
-\emph{Code:} \url{https://github.com/cda-tum/mqt-ddsim}\newline
-\emph{Python Package:} \url{https://pypi.org/p/mqt.ddsim}\newline
-\emph{Documentation:} \url{https://mqt.readthedocs.io/projects/ddsim}
+\emph{Code:} \href{https://github.com/cda-tum/mqt-ddsim}{cda-tum/mqt-ddsim}\newline
+\emph{Python Package:} \href{https://pypi.org/p/mqt.ddsim}{pypi.org/p/mqt.ddsim}\newline
+\emph{Documentation:} \href{https://mqt.readthedocs.io/projects/ddsim}{mqt.rtfd.io/projects/ddsim}
 \end{minipage}%
 \hspace{1em}%
 \begin{minipage}[t]{0.15\linewidth}
@@ -85,7 +86,6 @@ result.get_counts()
 \qrcode[height=1.75cm]{https://github.com/cda-tum/mqt-ddsim}
 }
 \end{minipage}
-\vspace*{3.5em}
 ```
 
 ````{only} html
