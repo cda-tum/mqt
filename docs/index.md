@@ -63,6 +63,7 @@ handbook/references
 
 ````{only} html
 ```{toctree}
+:hidden:
 :caption: Tool Overview and Statistics
 
 overview
