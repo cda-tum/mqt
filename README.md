@@ -21,24 +21,23 @@ The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection
 
 ## GitHub Information
 
-| Projekt                              |                                     latest version |                                            forks |                                            stars |
-| ------------------------------------ | -------------------------------------------------: | -----------------------------------------------: | -----------------------------------------------: |
-| `mqt-ddsim`                          |                          ![gh.mqt.ddsim.release][] |                          ![gh.mqt.ddsim.forks][] |                          ![gh.mqt.ddsim.stars][] |
-| `mqt-qcec`                           |                           ![gh.mqt.qcec.release][] |                           ![gh.mqt.qcec.forks][] |                           ![gh.mqt.qcec.stars][] |
-| `mqt-qmap`                           |                           ![gh.mqt.qmap.release][] |                           ![gh.mqt.qmap.forks][] |                           ![gh.mqt.qmap.stars][] |
-| `mqt-qecc`                           |                           ![gh.mqt.qecc.release][] |                           ![gh.mqt.qecc.forks][] |                           ![gh.mqt.qecc.stars][] |
-| `mqt-bench`                          |                          ![gh.mqt.bench.release][] |                          ![gh.mqt.bench.forks][] |                          ![gh.mqt.bench.stars][] |
-| `mqt-predictor`                      |                      ![gh.mqt.predictor.release][] |                      ![gh.mqt.predictor.forks][] |                      ![gh.mqt.predictor.stars][] |
-| `mqt-core`                           |                           ![gh.mqt.core.release][] |                           ![gh.mqt.core.forks][] |                           ![gh.mqt.core.stars][] |
-| `mqt-problemsolver`                  |                  ![gh.mqt.problemsolver.release][] |                  ![gh.mqt.problemsolver.forks][] |                  ![gh.mqt.problemsolver.stars][] |
-| `mqt-syrec`                          |                          ![gh.mqt.syrec.release][] |                          ![gh.mqt.syrec.forks][] |                          ![gh.mqt.syrec.stars][] |
-| `mqt-ddvis`                          |                          ![gh.mqt.ddvis.release][] |                          ![gh.mqt.ddvis.forks][] |                          ![gh.mqt.ddvis.stars][] |
-| `mqt-qusat`                          |                          ![gh.mqt.qusat.release][] |                          ![gh.mqt.qusat.forks][] |                          ![gh.mqt.qusat.stars][] |
-| `mqt-qudit-compilation`              |              ![gh.mqt.qudit-compilation.release][] |              ![gh.mqt.qudit-compilation.forks][] |              ![gh.mqt.qudit-compilation.stars][] |
-| `mqt-dasqa`                          |                          ![gh.mqt.dasqa.release][] |                          ![gh.mqt.dasqa.forks][] |                          ![gh.mqt.dasqa.stars][] |
-| `mqt-qudit-entanglement-compilation` | ![gh.mqt.qudit-entanglement-compilation.release][] | ![gh.mqt.qudit-entanglement-compilation.forks][] | ![gh.mqt.qudit-entanglement-compilation.stars][] |
-| `mqt-ionshuttler`                    |                    ![gh.mqt.ionshuttler.release][] |                    ![gh.mqt.ionshuttler.forks][] |                    ![gh.mqt.ionshuttler.stars][] |
-| `mqt-logicblocks`                    |                    ![gh.mqt.logicblocks.release][] |                    ![gh.mqt.logicblocks.forks][] |                    ![gh.mqt.logicblocks.stars][] |
+| Projekt             |                    latest version |                           forks |                           stars |
+| ------------------- | --------------------------------: | ------------------------------: | ------------------------------: |
+| `mqt-ddsim`         |         ![gh.mqt.ddsim.release][] |         ![gh.mqt.ddsim.forks][] |         ![gh.mqt.ddsim.stars][] |
+| `mqt-qcec`          |          ![gh.mqt.qcec.release][] |          ![gh.mqt.qcec.forks][] |          ![gh.mqt.qcec.stars][] |
+| `mqt-qmap`          |          ![gh.mqt.qmap.release][] |          ![gh.mqt.qmap.forks][] |          ![gh.mqt.qmap.stars][] |
+| `mqt-qecc`          |          ![gh.mqt.qecc.release][] |          ![gh.mqt.qecc.forks][] |          ![gh.mqt.qecc.stars][] |
+| `mqt-bench`         |         ![gh.mqt.bench.release][] |         ![gh.mqt.bench.forks][] |         ![gh.mqt.bench.stars][] |
+| `mqt-predictor`     |     ![gh.mqt.predictor.release][] |     ![gh.mqt.predictor.forks][] |     ![gh.mqt.predictor.stars][] |
+| `mqt-core`          |          ![gh.mqt.core.release][] |          ![gh.mqt.core.forks][] |          ![gh.mqt.core.stars][] |
+| `mqt-problemsolver` | ![gh.mqt.problemsolver.release][] | ![gh.mqt.problemsolver.forks][] | ![gh.mqt.problemsolver.stars][] |
+| `mqt-syrec`         |         ![gh.mqt.syrec.release][] |         ![gh.mqt.syrec.forks][] |         ![gh.mqt.syrec.stars][] |
+| `mqt-ddvis`         |         ![gh.mqt.ddvis.release][] |         ![gh.mqt.ddvis.forks][] |         ![gh.mqt.ddvis.stars][] |
+| `mqt-qusat`         |         ![gh.mqt.qusat.release][] |         ![gh.mqt.qusat.forks][] |         ![gh.mqt.qusat.stars][] |
+| `mqt-dasqa`         |         ![gh.mqt.dasqa.release][] |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
+| `mqt-ionshuttler`   |   ![gh.mqt.ionshuttler.release][] |   ![gh.mqt.ionshuttler.forks][] |   ![gh.mqt.ionshuttler.stars][] |
+| `mqt-qubomaker`     |     ![gh.mqt.qubomaker.release][] |     ![gh.mqt.qubomaker.forks][] |     ![gh.mqt.qubomaker.stars][] |
+| `mqt-qudits`        |        ![gh.mqt.qudits.release][] |        ![gh.mqt.qudits.forks][] |        ![gh.mqt.qudits.stars][] |
 
 [gh.mqt.ddsim.release]: https://img.shields.io/github/v/release/cda-tum/mqt-ddsim?label=%20&style=flat-square
 [gh.mqt.ddsim.forks]: https://img.shields.io/github/forks/cda-tum/mqt-ddsim?label=%20&style=flat-square
@@ -73,21 +72,18 @@ The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection
 [gh.mqt.qusat.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qusat?label=%20&style=flat-square
 [gh.mqt.qusat.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qusat?label=%20&style=flat-square
 [gh.mqt.qusat.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qusat?label=%20&style=flat-square
-[gh.mqt.logicblocks.release]: https://img.shields.io/github/v/release/cda-tum/logicblocks?label=%20&style=flat-square
-[gh.mqt.logicblocks.forks]: https://img.shields.io/github/forks/cda-tum/logicblocks?label=%20&style=flat-square
-[gh.mqt.logicblocks.stars]: https://img.shields.io/github/stars/cda-tum/logicblocks?label=%20&style=flat-square
 [gh.mqt.ionshuttler.release]: https://img.shields.io/github/v/release/cda-tum/ion-shuttler?label=%20&style=flat-square
 [gh.mqt.ionshuttler.forks]: https://img.shields.io/github/forks/cda-tum/ion-shuttler?label=%20&style=flat-square
 [gh.mqt.ionshuttler.stars]: https://img.shields.io/github/stars/cda-tum/ion-shuttler?label=%20&style=flat-square
-[gh.mqt.qudit-compilation.release]: https://img.shields.io/github/v/release/cda-tum/qudit-compilation?label=%20&style=flat-square
-[gh.mqt.qudit-compilation.forks]: https://img.shields.io/github/forks/cda-tum/qudit-compilation?label=%20&style=flat-square
-[gh.mqt.qudit-compilation.stars]: https://img.shields.io/github/stars/cda-tum/qudit-compilation?label=%20&style=flat-square
-[gh.mqt.qudit-entanglement-compilation.release]: https://img.shields.io/github/v/release/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
-[gh.mqt.qudit-entanglement-compilation.forks]: https://img.shields.io/github/forks/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
-[gh.mqt.qudit-entanglement-compilation.stars]: https://img.shields.io/github/stars/cda-tum/qudit-entanglement-compilation?label=%20&style=flat-square
+[gh.mqt.qudits.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qudits?label=%20&style=flat-square
+[gh.mqt.qudits.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qudits?label=%20&style=flat-square
+[gh.mqt.qudits.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qudits?label=%20&style=flat-square
 [gh.mqt.dasqa.release]: https://img.shields.io/github/v/release/cda-tum/mqt-dasqa?label=%20&style=flat-square
 [gh.mqt.dasqa.forks]: https://img.shields.io/github/forks/cda-tum/mqt-dasqa?label=%20&style=flat-square
 [gh.mqt.dasqa.stars]: https://img.shields.io/github/stars/cda-tum/mqt-dasqa?label=%20&style=flat-square
+[gh.mqt.qubomaker.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qubomaker?label=%20&style=flat-square
+[gh.mqt.qubomaker.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qubomaker?label=%20&style=flat-square
+[gh.mqt.qubomaker.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qubomaker?label=%20&style=flat-square
 
 ## PyPI Downloads
 
@@ -103,6 +99,7 @@ The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection
 | [`mqt.bench`][pypi.mqt.bench.stats]                 |         ![pypi.mqt.bench.version][] |         ![pypi.mqt.bench.weekly][] |         ![pypi.mqt.bench.monthly][] |                 [![pypi.mqt.bench.total]](https://pepy.tech/project/mqt.bench) |
 | [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
 | [`mqt.problemsolver`][pypi.mqt.problemsolver.stats] | ![pypi.mqt.problemsolver.version][] | ![pypi.mqt.problemsolver.weekly][] | ![pypi.mqt.problemsolver.monthly][] | [![pypi.mqt.problemsolver.total]](https://pepy.tech/project/mqt.problemsolver) |
+| [`mqt.qudits`][pypi.mqt.qudits.stats]               |        ![pypi.mqt.qudits.version][] |        ![pypi.mqt.qudits.weekly][] |        ![pypi.mqt.qudits.monthly][] |               [![pypi.mqt.qudits.total]](https://pepy.tech/project/mqt.qudits) |
 
 [pypi.mqt.ddsim.stats]: https://pypistats.org/packages/mqt-ddsim
 [pypi.mqt.ddsim.version]: https://img.shields.io/pypi/v/mqt.ddsim?label=%20&style=flat-square
@@ -154,6 +151,11 @@ The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection
 [pypi.mqt.qusat.weekly]: https://img.shields.io/pypi/dw/mqt.qusat?label=%20&style=flat-square
 [pypi.mqt.qusat.monthly]: https://img.shields.io/pypi/dm/mqt.qusat?label=%20&style=flat-square
 [pypi.mqt.qusat.total]: https://static.pepy.tech/personalized-badge/mqt-qusat?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.qudits.stats]: https://pypistats.org/packages/mqt-qudits
+[pypi.mqt.qudits.version]: https://img.shields.io/pypi/v/mqt.qudits?label=%20&style=flat-square
+[pypi.mqt.qudits.weekly]: https://img.shields.io/pypi/dw/mqt.qudits?label=%20&style=flat-square
+[pypi.mqt.qudits.monthly]: https://img.shields.io/pypi/dm/mqt.qudits?label=%20&style=flat-square
+[pypi.mqt.qudits.total]: https://static.pepy.tech/personalized-badge/mqt-qudits?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
 
 <!-- SPHINX-END -->
 

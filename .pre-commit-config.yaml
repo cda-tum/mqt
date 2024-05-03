@@ -49,7 +49,7 @@ repos:
     rev: "v2.2.6"
     hooks:
       - id: codespell
-        args: ["-L", "wille,linz", "--skip", "*.ipynb"]
+        args: ["-L", "wille,linz", "--skip", "*.ipynb,*.bib"]
 
   # Format configuration files with prettier
   - repo: https://github.com/pre-commit/mirrors-prettier
