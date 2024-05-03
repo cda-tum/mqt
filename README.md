@@ -1,19 +1,18 @@
 <p align="center">
   <a href="https://mqt.readthedocs.io">
    <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="80%">
-     <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="80%">
+     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="60%">
+     <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="60%">
    </picture>
   </a>
 </p>
 
 # The Munich Quantum Toolkit (MQT)
 
-The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of design automation tools and software for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at
-the [Technical University of Munich](https://www.tum.de/).
+The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection of design automation tools and software for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/).
 
 <p align="center">
-  <a href="https://mqt.readthedocs.io/en/latest/">
+  <a href="https://mqt.readthedocs.io">
   <img width=50% src="https://img.shields.io/badge/documentation-blue?style=for-the-badge&logo=read%20the%20docs" alt="Documentation" />
   </a>
 </p>
