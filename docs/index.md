@@ -61,6 +61,12 @@ handbook/07_conclusions
 handbook/references
 ```
 
+```{toctree}
+:caption: Design Philosophy and Methodology
+
+design/ci
+```
+
 ````{only} html
 ```{toctree}
 :hidden:

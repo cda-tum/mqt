@@ -28,6 +28,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxcontrib.bibtex",
     "sphinxcontrib.inkscapeconverter",
+    "sphinxcontrib.mermaid",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
@@ -79,6 +80,7 @@ myst_enable_extensions = [
     "dollarmath",
 ]
 myst_heading_anchors = 3
+myst_fence_as_directive = ["mermaid"]
 
 # -- Options for {MyST}NB ----------------------------------------------------
 
