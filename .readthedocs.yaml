@@ -17,10 +17,6 @@ build:
       then
         exit 183;
       fi
-    # Install imagemagick for image conversion
-    - asdf plugin add imagemagick
-    - asdf install imagemagick latest
-    - asdf global imagemagick latest
     # Set up uv and a virtual environment
     - asdf plugin add uv
     - asdf install uv latest
