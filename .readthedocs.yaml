@@ -17,9 +17,9 @@ build:
       then
         exit 183;
       fi
-    # Install apt dependencies
-    - sudo apt-get update --assume-yes --quiet
-    - sudo apt-get install --assume-yes --quiet -- imagemagick inkscape graphviz
+    # Install non-python dependencies
+    - conda install conda-forge::imagemagick
+    - conda install conda-forge::graphviz
     # Set up uv and a virtual environment
     - asdf plugin add uv
     - asdf install uv latest
