@@ -11,7 +11,7 @@ As the quantum computing landscape advances towards _Fault-Tolerant Quantum Comp
 
 ```
 
-We thank everyone that contributed to the development of the _Munich Quantum Toolkit_.
+We thank everyone who contributed to the development of the _Munich Quantum Toolkit_.
 Special thanks go to Alwin Zulehner, Stefan Hillmich, Thomas Grurl, Hartwig Bauer, Sarah Schneider, Smaran Adarsh, and Alexander Ploier for their specific contributions in the past.
 
 ```{only} latex
