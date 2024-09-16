@@ -41,16 +41,17 @@ Verifying that the quantum circuit from {numref}`fig-ghz-circuit-mapped` has bee
 %config InlineBackend.figure_formats = ['svg']
 
 from qiskit import QuantumCircuit
-from qiskit.providers.fake_provider import Fake5QV1
+from qiskit.providers.fake_provider import GenericBackendV2
 from mqt.qmap import compile
 
-circ = QuantumCircuit(3)
-circ.h(2)
+circ = QuantumCircuit(4)
+circ.h(3)
+circ.cx(3, 2)
 circ.cx(2, 1)
 circ.cx(1, 0)
 circ.measure_all()
 
-backend = Fake5QV1()
+backend = GenericBackendV2(num_qubits=5, coupling_map=[[0, 1], [1, 0], [0, 2], [2, 0], [0, 3], [3, 0], [0, 4], [4, 0]])
 
 circ_mapped, _ = compile(circ, backend)
 ```
