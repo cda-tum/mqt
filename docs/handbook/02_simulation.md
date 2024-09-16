@@ -53,7 +53,7 @@ mystnb:
     width: 50%
   figure:
     align: center
-    caption: "Quantum circuit for generating a three-qubit GHZ state."
+    caption: "Quantum circuit for generating a four-qubit GHZ state."
     name: fig-ghz-circuit
 ---
 circ.draw(output="mpl", style="iqp")
