@@ -2,10 +2,10 @@ furo
 ipykernel
 ipython
 matplotlib
-mqt-bench~=1.1.0
-mqt-ddsim~=1.21.0
-mqt-qcec~=2.5.0
-mqt-qmap~=2.5.0
+mqt-bench~=1.1.5
+mqt-ddsim~=1.23.0
+mqt-qcec~=2.7.1
+mqt-qmap~=2.6.0
 myst-nb
 myst_parser>=0.13
 pybtex>=0.24

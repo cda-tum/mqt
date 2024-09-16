@@ -55,22 +55,23 @@ mystnb:
     width: 30%
   figure:
     align: center
-    caption: "Coupling map of a generic five-qubit IBM device."
+    caption: "Coupling map of a generic five-qubit device."
     name: fig-device
 ---
 %config InlineBackend.figure_formats = ['svg']
 
 from qiskit import QuantumCircuit
-from qiskit.providers.fake_provider import Fake5QV1
+from qiskit.providers.fake_provider import GenericBackendV2
 from qiskit.visualization import plot_gate_map
 
-circ = QuantumCircuit(3)
-circ.h(2)
+circ = QuantumCircuit(4)
+circ.h(3)
+circ.cx(3, 2)
 circ.cx(2, 1)
 circ.cx(1, 0)
 circ.measure_all()
 
-backend = Fake5QV1()
+backend = GenericBackendV2(num_qubits=5, coupling_map=[[0, 1], [1, 0], [0, 2], [2, 0], [0, 3], [3, 0], [0, 4], [4, 0]])
 plot_gate_map(backend)
 ```
 
@@ -78,9 +79,13 @@ Then, mapping the circuit to that device merely requires the following lines of 
 
 ```{code-cell} ipython3
 from mqt.qmap import compile
-from qiskit.providers.fake_provider import Fake5QV1
+from qiskit.providers.fake_provider import GenericBackendV2
 
-backend = Fake5QV1()
+backend = GenericBackendV2(
+    num_qubits=5,
+    coupling_map=[[0, 1], [1, 0], [0, 2], [2, 0], [0, 3], [3, 0], [0, 4], [4, 0]]
+)
+
 circ_mapped, results = compile(circ, backend)
 ```
 

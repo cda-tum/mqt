@@ -31,14 +31,15 @@ This includes strong and weak simulation {cite:p}`zulehnerAdvancedSimulationQuan
 %config InlineBackend.figure_formats = ['svg']
 ```
 
-Consider the following listing that describes the quantum circuit for generating a three-qubit GHZ state (also shown in {numref}`fig-ghz-circuit`):
+Consider the following listing that describes the quantum circuit for generating a four-qubit GHZ state (also shown in {numref}`fig-ghz-circuit`):
 
 ```{code-cell} ipython3
 :tags: [remove-output]
 from qiskit import QuantumCircuit
 
-circ = QuantumCircuit(3)
-circ.h(2)
+circ = QuantumCircuit(4)
+circ.h(3)
+circ.cx(3, 2)
 circ.cx(2, 1)
 circ.cx(1, 0)
 circ.measure_all()
@@ -52,7 +53,7 @@ mystnb:
     width: 50%
   figure:
     align: center
-    caption: "Quantum circuit for generating a three-qubit GHZ state."
+    caption: "Quantum circuit for generating a four-qubit GHZ state."
     name: fig-ghz-circuit
 ---
 circ.draw(output="mpl", style="iqp")
