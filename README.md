@@ -51,7 +51,6 @@ The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection
 [`mqt-ddvis`]: https://github.com/cda-tum/mqt-ddvis
 [`mqt-qusat`]: https://github.com/cda-tum/mqt-qusat
 [`mqt-dasqa`]: https://github.com/cda-tum/mqt-dasqa
-[`mqt-qubomaker`]: https://github.com/cda-tum/mqt-qubomaker
 [`mqt-ionshuttler`]: https://github.com/cda-tum/mqt-ionshuttler
 [`mqt-qubomaker`]: https://github.com/cda-tum/mqt-qubomaker
 [`mqt-qudits`]: https://github.com/cda-tum/mqt-qudits
