@@ -27,7 +27,7 @@ extensions = [
     "myst_nb",
     "sphinx.ext.intersphinx",
     "sphinxcontrib.bibtex",
-    "sphinxcontrib.inkscapeconverter",
+    "sphinxcontrib.cairosvgconverter",
     "sphinx_design",
     "sphinx_copybutton",
     "sphinxext.opengraph",
