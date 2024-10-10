@@ -48,7 +48,7 @@ A framework for the automatic generation of QUBO formulations for optimization p
 ```
 
 +++
-[{fab}`github` GitHub](https://github.com/cda-tum/mqt-problemsolver) | [{fab}`python` PyPI](https://pypi.org/project/mqt.problemsolver/) | {fa}`fa-thin fa-book` {doc}` Documentation <qubomaker:index>` | [{fa}`fa-thin fa-desktop` Application](https://cda-tum.github.io/mqt-qubomaker/)
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qubomaker) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qubomaker/) | {fa}`fa-thin fa-book` {doc}` Documentation <qubomaker:index>` | [{fa}`fa-thin fa-desktop` Application](https://cda-tum.github.io/mqt-qubomaker/)
 :::
 
 ::::
