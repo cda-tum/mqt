@@ -35,7 +35,23 @@ A live version of this document is available at [mqt.readthedocs.io](https://mqt
 \sphinxtableofcontents
 ```
 
-```{only} html
+````{only} html
+If you want to cite the Munich Quantum Toolkit, please use the following BibTeX entry:
+
+```bibtex
+@inproceedings{mqt,
+    title = {The {{MQT}} Handbook: {{A}} Summary of Design Automation Tools and Software for Quantum Computing},
+    shorttitle = {{The MQT Handbook}},
+    booktitle = {IEEE International Conference on Quantum Software (QSW)},
+    author = {Wille, Robert and Berent, Lucas and Forster, Tobias and Kunasaikaran, Jagatheesan and Mato, Kevin and Peham, Tom and Quetschlich, Nils and Rovara, Damian and Sander, Aaron and Schmid, Ludwig and Schoenberger, Daniel and Stade, Yannick and Burgholzer, Lukas},
+    date = {2024},
+    doi = {10.1109/QSW62656.2024.00013},
+    eprint  = {2405.17543},
+    eprinttype = {arxiv},
+    addendum = {A live version of this document is available at \url{https://mqt.readthedocs.io}},
+}
+```
+
 For a comprehensive visual depiction of the MQT tools, we invite you to download our <a href="_static/flyers/mqt_flyer.pdf" title="Link to MQT flyer">MQT Flyer</a>.
 
 <div style="float: right; margin-top:0em; margin-bottom:3em;">
@@ -46,7 +62,7 @@ For a comprehensive visual depiction of the MQT tools, we invite you to download
         </figure>
     </a>
 </div>
-```
+````
 
 ```{toctree}
 :caption: The MQT Handbook
