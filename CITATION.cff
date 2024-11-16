@@ -1,0 +1,151 @@
+cff-version: 1.2.0
+title: Munich Quantum Toolkit (MQT)
+message: >-
+  Please cite the MQT using the metadata from 'preferred-citation'.
+type: software
+authors:
+  - given-names: Robert
+    family-names: Wille
+    email: robert.wille@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0002-4993-7860'
+  - given-names: Lucas
+    family-names: Berent
+    email: lucas.berent@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0002-2973-1689'
+  - given-names: Tobias
+    family-names: Forster
+    email: tobias.forster@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0009-0009-5900-7438'
+  - given-names: Jagatheesan
+    family-names: Kunasaikaran
+    email: jagatheesan.kunasaikaran@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0009-0003-7097-5428'
+  - given-names: Kevin
+    family-names: Mato
+    email: kevin.mato@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0003-2073-5226'
+  - given-names: Tom
+    family-names: Peham
+    email: tom.peham@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0003-3434-7881'
+  - given-names: Nils
+    family-names: Quetschlich
+    email: nils.quetschlich@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0002-4369-5207'
+  - given-names: Damian
+    family-names: Rovara
+    email: damian.rovara@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0009-0000-7416-9149'
+  - given-names: Aaron
+    family-names: Sander
+    email: aaron.sander@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0009-0007-9166-6113'
+  - given-names: Ludwig
+    family-names: Schmid
+    email: ludwig.s.schmid@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0002-4246-8125'
+  - given-names: Daniel
+    family-names: Schoenberger
+    email: daniel.schoenberger@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0009-0005-8059-0534'
+  - given-names: Yannick
+    family-names: Stade
+    email: yannick.stade@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0001-5785-2528'
+  - given-names: Lukas
+    family-names: Burgholzer
+    email: lukas.burgholzer@tum.de
+    affiliation: 'Technical University of Munich, Germany'
+    orcid: 'https://orcid.org/0000-0003-4699-1316'
+identifiers:
+  - type: doi
+    value: 10.1109/QSW62656.2024.00013
+  - type: url
+    value: 'https://arxiv.org/abs/2405.17543'
+url: 'https://mqt.readthedocs.io'
+license: MIT
+preferred-citation:
+    type: conference-paper
+    title: "The MQT Handbook: A Summary of Design Automation Tools and Software for Quantum Computing"
+    conference: "IEEE International Conference on Quantum Software (QSW)"
+    year: 2024
+    month: 7
+    doi: "10.1109/QSW62656.2024.00013"
+    authors:
+      - given-names: Robert
+        family-names: Wille
+        email: robert.wille@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0002-4993-7860'
+      - given-names: Lucas
+        family-names: Berent
+        email: lucas.berent@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0002-2973-1689'
+      - given-names: Tobias
+        family-names: Forster
+        email: tobias.forster@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0009-0009-5900-7438'
+      - given-names: Jagatheesan
+        family-names: Kunasaikaran
+        email: jagatheesan.kunasaikaran@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0009-0003-7097-5428'
+      - given-names: Kevin
+        family-names: Mato
+        email: kevin.mato@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0003-2073-5226'
+      - given-names: Tom
+        family-names: Peham
+        email: tom.peham@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0003-3434-7881'
+      - given-names: Nils
+        family-names: Quetschlich
+        email: nils.quetschlich@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0002-4369-5207'
+      - given-names: Damian
+        family-names: Rovara
+        email: damian.rovara@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0009-0000-7416-9149'
+      - given-names: Aaron
+        family-names: Sander
+        email: aaron.sander@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0009-0007-9166-6113'
+      - given-names: Ludwig
+        family-names: Schmid
+        email: ludwig.s.schmid@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0002-4246-8125'
+      - given-names: Daniel
+        family-names: Schoenberger
+        email: daniel.schoenberger@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0009-0005-8059-0534'
+      - given-names: Yannick
+        family-names: Stade
+        email: yannick.stade@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0001-5785-2528'
+      - given-names: Lukas
+        family-names: Burgholzer
+        email: lukas.burgholzer@tum.de
+        affiliation: 'Technical University of Munich, Germany'
+        orcid: 'https://orcid.org/0000-0003-4699-1316'
