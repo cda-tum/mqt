@@ -10,4 +10,6 @@ dependencies = [
     "mqt-qcec>=2.8.1",
     "mqt-qmap>=2.7.0",
     "qiskit[visualization]>=1.2.4",
+    "matplotlib>=3.9.2",
+    "pylatexenc>=2.10",
 ]
