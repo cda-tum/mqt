@@ -56,5 +56,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 pip install jupyter
+python -m ipykernel install --sys-prefix
 jupyter lab
 ```
