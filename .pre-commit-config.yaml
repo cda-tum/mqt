@@ -31,7 +31,7 @@ repos:
 
   # Handling unwanted unicode characters
   - repo: https://github.com/sirosen/texthooks
-    rev: "0.6.7"
+    rev: "0.6.8"
     hooks:
       - id: fix-ligatures
       - id: fix-smartquotes
@@ -46,14 +46,14 @@ repos:
 
   # Check for spelling
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.3.0"
+    rev: "v2.4.0"
     hooks:
       - id: codespell
         args: ["-L", "wille,linz", "--skip", "*.ipynb,*.bib"]
 
   # Format configuration files with prettier
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.3.3
+    rev: v3.4.2
     hooks:
       - id: prettier
         types_or: [yaml, markdown, html, css, scss, javascript, json]
