@@ -46,7 +46,7 @@ repos:
 
   # Check for spelling
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.4.0"
+    rev: "v2.4.1"
     hooks:
       - id: codespell
         args: ["-L", "wille,linz", "--skip", "*.ipynb,*.bib"]
